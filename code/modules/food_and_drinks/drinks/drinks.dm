@@ -395,6 +395,7 @@
 	spillable = TRUE
 	isGlass = FALSE
 	item_flags = DROPDEL | ABSTRACT | HAND_ITEM
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/drinks/sillycup/on_reagent_change(changetype)
 	if(reagents.total_volume)

@@ -10,6 +10,7 @@ PROCESSING_SUBSYSTEM_DEF(vore)
 	wait = 5 SECONDS
 	flags = SS_BACKGROUND|SS_POST_FIRE_TIMING
 	runlevels = RUNLEVEL_GAME|RUNLEVEL_POSTGAME
+	var/just_allow_anything_who_cares = TRUE
 	/// mobtypes allowed to have a vore component
 	var/list/approved_vore_mobtypes = list()
 	/// itemtypes allowed to be vored
@@ -79,6 +80,8 @@ PROCESSING_SUBSYSTEM_DEF(vore)
 /datum/controller/subsystem/processing/vore/proc/can_eat(atom/movable/eat_thing)
 	if(!istype(eat_thing))
 		return FALSE
+	if(just_allow_anything_who_cares)
+		return TRUE // remind me why we have to balance vore for the bar, again?
 	if(ishuman(eat_thing))
 		return TRUE
 	if(isliving(eat_thing))

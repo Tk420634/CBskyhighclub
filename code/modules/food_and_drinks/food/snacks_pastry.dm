@@ -645,7 +645,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/tree
-	name = "sugar cookie"
+	name = "tree sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_tree"
@@ -657,7 +657,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/bear
-	name = "sugar cookie"
+	name = "bear sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_bear"
@@ -669,7 +669,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/santa
-	name = "sugar cookie"
+	name = "santa sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_santa"
@@ -681,7 +681,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/stocking
-	name = "sugar cookie"
+	name = "stocking sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_stocking"
@@ -693,7 +693,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/present
-	name = "sugar cookie"
+	name = "present sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_present"
@@ -705,7 +705,7 @@
 	dunkable = TRUE
 
 /obj/item/reagent_containers/food/snacks/sugarcookie/cane
-	name = "sugar cookie"
+	name = "candycane sugar cookie"
 	desc = "Just like your little sister used to make."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "sugarcookie_cane"

@@ -923,14 +923,14 @@ GLOBAL_LIST_EMPTY(PDAs)
 		t = Gibberish(t, 100)
 	return t
 
-/obj/item/pda/proc/send_message(mob/living/user, list/obj/item/pda/targets, everyone)
-	var/message = msg_input(user)
+/obj/item/pda/proc/send_message(mob/living/user, list/obj/item/pda/targets, everyone, msg)
+	var/message = msg || (user ? msg_input(user) : null)
 	if(!message || !targets.len)
 		return
-	if((last_text && world.time < last_text + 10) || (everyone && last_everyone && world.time < last_everyone + PDA_SPAM_DELAY))
-		return
-	if(prob(1))
-		message += "\nSent from my PDA"
+	// if((last_text && world.time < last_text + 10) || (everyone && last_everyone && world.time < last_everyone + PDA_SPAM_DELAY))
+	// 	return
+	// if(prob(1))
+	// 	message += "\nSent from my PDA"
 	// Send the signal
 	var/list/string_targets = list()
 	var/list/string_blocked
@@ -957,7 +957,9 @@ GLOBAL_LIST_EMPTY(PDAs)
 		"job" = "[ownjob]",
 		"message" = message,
 		"targets" = string_targets,
-		"emojis" = allow_emojis
+		"emojis" = allow_emojis,
+		"quid" = SSeconomy.extract_quid(user),
+		"ckey" = user ? user.ckey : "CONSOLE",
 	))
 	if (picture)
 		signal.data["photo"] = picture
@@ -987,10 +989,13 @@ GLOBAL_LIST_EMPTY(PDAs)
 			if(ML.enabled_combat_indicator)
 				to_chat(ML, "<span class='notice'>[user] taps quietly on [src].")
 		if(M?.client && M.client.prefs.chat_toggles & CHAT_GHOSTPDA)
-			to_chat(M, "[FOLLOW_LINK(M, user)] [ghost_message]")
+			if(ismob(user))
+				to_chat(M, "[FOLLOW_LINK(M, user)] [ghost_message]")
+			else
+				to_chat(M, "[ghost_message]")
 	to_chat(user, span_info("Message sent to [target_text]: \"[message]\""))
 	// Log in the talk log
-	user.log_talk(message, LOG_PDA, tag="PDA: [initial(name)] to [target_text] (BLOCKED:[string_blocked])")
+	user?.log_talk(message, LOG_PDA, tag="PDA: [initial(name)] to [target_text] (BLOCKED:[string_blocked])")
 	if (!silent)
 		playsound(src, 'modular_coyote/sound/pipsounds/pipmsgsend.ogg', 30, 1)
 	// Reset the photo
@@ -1024,6 +1029,16 @@ GLOBAL_LIST_EMPTY(PDAs)
 			inbound_message = emoji_parse(inbound_message)
 
 		to_chat(L, "[icon2html(src)] <b>Message from [hrefstart][signal.data["name"]] ([signal.data["job"]])[hrefend], </b>[inbound_message] (<a href='byond://?src=[REF(src)];choice=Message;skiprefresh=1;target=[REF(signal.source)]'>Reply</a>) (<a href='byond://?src=[REF(src)];choice=toggle_block;target=[signal.data["name"]]'>BLOCK/UNBLOCK</a>)")
+
+	var/datum/rental_mommy/pda/pda_mommy = SSrentaldatums.CheckoutPDAMommy()
+	pda_mommy.name = signal.data["name"]
+	pda_mommy.job = signal.data["job"]
+	pda_mommy.message = signal.data["message"]
+	pda_mommy.sender_pda = signal.source
+	pda_mommy.senderquid = signal.data["quid"]
+	pda_mommy.senderckey = signal.data["ckey"]
+	SEND_SIGNAL(src, COMSIG_PDA_RECEIVE_MESSAGE, pda_mommy)
+	pda_mommy.checkin()
 
 	new_alert = TRUE
 	update_icon(TRUE)

@@ -126,6 +126,29 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/datum/looping_sound/foodprinter_1
+	mid_length = 24
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/machines/foodprinter_work.ogg', 2.3 SECONDS, 1), 
+		)
+	volume = 65
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/datum/looping_sound/foodprinter_2
+	start_sound = list(SOUND_LOOP_ENTRY('sound/machines/foodprinter_start.ogg', 6.3 SECONDS, 1))
+	start_length = 63
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/machines/foodprinter_01.ogg', 1.9 SECONDS, 1), 
+		SOUND_LOOP_ENTRY('sound/machines/foodprinter_02.ogg', 1.9 SECONDS, 1), 
+		SOUND_LOOP_ENTRY('sound/machines/foodprinter_03.ogg', 1.9 SECONDS, 1), 
+		SOUND_LOOP_ENTRY('sound/machines/foodprinter_04.ogg', 1.9 SECONDS, 1), 
+		)
+	mid_length = 5
+	volume = 65
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /datum/looping_sound/debug_area_ambiance
 	start_sound = list(SOUND_LOOP_ENTRY('sound/machines/microwave/microwave-start.ogg', 1 SECONDS, 1))
 	start_length = 10

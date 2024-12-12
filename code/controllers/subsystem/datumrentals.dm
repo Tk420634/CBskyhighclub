@@ -25,6 +25,7 @@ SUBSYSTEM_DEF(rentaldatums)
 
 	/// now for the rental mommies
 	var/list/chat_datums = list()
+	var/list/pda_datums = list()
 	var/chat_uses_mommy = TRUE // my code my names
 
 /datum/controller/subsystem/rentaldatums/Initialize(start_timeofday)
@@ -34,6 +35,8 @@ SUBSYSTEM_DEF(rentaldatums)
 /datum/controller/subsystem/rentaldatums/proc/init_datums()
 	chat_datums = list()
 	chat_datums += new /datum/rental_mommy/chat()
+	pda_datums = list()
+	pda_datums += new /datum/rental_mommy/pda()
 
 
 /datum/controller/subsystem/rentaldatums/proc/CheckoutMommy(mom)
@@ -51,6 +54,9 @@ SUBSYSTEM_DEF(rentaldatums)
 
 /datum/controller/subsystem/rentaldatums/proc/CheckoutChatMommy()
 	return CheckoutMommy("chat_datums")
+
+/datum/controller/subsystem/rentaldatums/proc/CheckoutPDAMommy()
+	return CheckoutMommy("pda_datums")
 
 /datum/rental_mommy // hey isnt that your mom?
 	/// Is your mom available?
@@ -319,45 +325,30 @@ SUBSYSTEM_DEF(rentaldatums)
 	dots_some_anyway                   = null
 	dots_please                        = null
 
-// /// Know what, know what? screw it, I'm compiling all the chat procs into this datum
-// /datum/rental_mommy/chat/proc/handle_say(
-// 	atom/speaker,
-// 	message,
-// 	bubble_type,
-// 	list/spans = list(),
-// 	sanitize,
-// 	language,
-// 	ignore_spam,
-// 	forced,
-// 	only_overhead,
-// 	direct_to_mob
-// )
+/datum/rental_mommy/pda
+	var/name            = ""
+	var/job             = ""
+	var/message         = ""
+	var/obj/sender_pda  = null
+	var/senderquid      = ""
+	var/senderckey      = ""
 
-// 	src.original_message = message
-// 	src.message = message
-// 	src.source = speaker
-// 	src.message_mode = MODE_SAY
-// 	src.spans = spans.Copy()
-// 	src.sanitize = sanitize
-// 	src.bubble_type = bubble_type
-// 	src.language = language
-// 	src.only_overhead = only_overhead
-// 	src.source_quid = extract_quid(src)
-// 	src.source_ckey = ckey
-// 	src.direct_to_mob = direct_to_mob
-// 	src.ignore_spam = ignore_spam
-// 	src.forced = forced
+/datum/rental_mommy/pda/copy_mommy(datum/rental_mommy/pda/mommy)
+	if(!..())
+		CRASH("Tried to copy a mommy of a different type")
+	name        = mommy.name
+	job         = mommy.job
+	message     = mommy.message
+	sender_pda  = mommy.sender_pda
+	senderquid  = mommy.senderquid
+	senderckey  = mommy.senderckey
 
-// 	if(ismob(source))
-// 		compile_from_mob(speaker)
-
-// 	var/talk_key = get_key(momchat.message)
-// 	momchat.message_key = talk_key
-
-
-// /mob/living/proc/get_key(message)
-// 	var/key = message[1]
-// 	if(key in GLOB.department_radio_prefixes)
-// 		return lowertext(message[1 + length(key)])
+/datum/rental_mommy/pda/wipe()
+	name        = ""
+	job         = ""
+	message     = ""
+	sender_pda  = null
+	senderquid  = ""
+	senderckey  = ""
 
 

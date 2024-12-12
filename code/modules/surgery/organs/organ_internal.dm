@@ -9,6 +9,7 @@
 	var/slot
 	// DO NOT add slots with matching names to different zones - it will break internal_organs_slot list!
 	var/organ_flags = ORGAN_EDIBLE
+	var/can_damage = TRUE
 	var/maxHealth = STANDARD_ORGAN_THRESHOLD
 	var/damage = 0		//total damage this organ has sustained
 	///Healing factor and decay factor function on % of maxhealth, and do not work by applying a static number per tick
@@ -182,6 +183,10 @@
 ///Adjusts an organ's damage by the amount "d", up to a maximum amount, which is by default max damage
 /obj/item/organ/proc/applyOrganDamage(d, maximum = maxHealth)	//use for damaging effects
 	if(!d || maximum < damage) //Micro-optimization.
+		return FALSE
+	if(!can_damage)
+		return FALSE
+	if(SSmobs.block_organ_damage)
 		return FALSE
 	damage = clamp(damage + d, 0, maximum)
 	var/mess = check_damage_thresholds()

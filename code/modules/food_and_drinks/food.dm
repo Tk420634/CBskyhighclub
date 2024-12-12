@@ -17,6 +17,7 @@
 	var/last_check_time
 	var/food_quality = 50
 	tableplacesound = 'sound/tableplace.ogg'
+	is_food = TRUE // YES AMY!! PEPPINO IS FOOD!!
 
 /obj/item/reagent_containers/food/Initialize(mapload)
 	. = ..()

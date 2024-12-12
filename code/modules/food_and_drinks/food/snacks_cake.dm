@@ -1,3 +1,4 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake
 	icon = 'icons/obj/food/piecake.dmi'
 	slice_path = /obj/item/reagent_containers/food/snacks/cakeslice/plain
@@ -7,6 +8,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cake" = 1)
 	foodtype = GRAIN | DAIRY
+	is_sliceable = TRUE
+	is_cake = TRUE
 
 /obj/item/reagent_containers/food/snacks/cakeslice
 	icon = 'icons/obj/food/piecake.dmi'
@@ -14,7 +17,10 @@
 	customfoodfilling = 0 //to avoid infinite cake-ception
 	tastes = list("cake" = 1)
 	foodtype = GRAIN | DAIRY
+	is_slice = TRUE
+	is_cake = TRUE
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/plain
 	name = "plain cake"
 	desc = "A plain cake, not a lie."
@@ -33,6 +39,8 @@
 	tastes = list("sweetness" = 2,"cake" = 5)
 	foodtype = GRAIN | DAIRY | SUGAR
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/carrot
 	name = "carrot cake"
 	desc = "A favorite desert of a certain wascally wabbit."
@@ -53,6 +61,7 @@
 	tastes = list("cake" = 5, "sweetness" = 2, "carrot" = 1)
 	foodtype = GRAIN | DAIRY | VEGETABLES | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/brain
 	name = "brain cake"
 	desc = "A squishy cake-thing."
@@ -63,7 +72,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/medicine/mannitol = 10, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cake" = 5, "sweetness" = 2, "brains" = 1)
 	foodtype = GRAIN | DAIRY | MEAT | GROSS | SUGAR
-
+	is_human = TRUE
 
 /obj/item/reagent_containers/food/snacks/cakeslice/brain
 	name = "brain cake slice"
@@ -73,7 +82,9 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/medicine/mannitol = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("cake" = 5, "sweetness" = 2, "brains" = 1)
 	foodtype = GRAIN | DAIRY | MEAT | GROSS | SUGAR
+	is_human = TRUE
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/cheese
 	name = "cheese cake"
 	desc = "DANGEROUSLY cheesy."
@@ -84,6 +95,7 @@
 	tastes = list("cake" = 4, "cream cheese" = 3)
 	foodtype = GRAIN | DAIRY
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/brioche
 	name = "brioche cake"
 	desc = "A ring of sweet, glazed buns."
@@ -106,6 +118,7 @@
 	tastes = list("cake" = 4, "cream cheese" = 3)
 	foodtype = GRAIN | DAIRY
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/orange
 	name = "orange cake"
 	desc = "A cake with added orange."
@@ -124,6 +137,7 @@
 	tastes = list("cake" = 5, "sweetness" = 2, "oranges" = 2)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/lime
 	name = "lime cake"
 	desc = "A cake with added lime."
@@ -142,6 +156,7 @@
 	tastes = list("cake" = 5, "sweetness" = 2, "unbearable sourness" = 2)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR | ANTITOXIC
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/lemon
 	name = "lemon cake"
 	desc = "A cake with added lemon."
@@ -160,6 +175,7 @@
 	tastes = list("cake" = 5, "sweetness" = 2, "sourness" = 2)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/chocolate
 	name = "chocolate cake"
 	desc = "A cake with added chocolate."
@@ -178,6 +194,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1, "chocolate" = 4)
 	foodtype = GRAIN | DAIRY | JUNKFOOD | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/birthday
 	name = "birthday cake"
 	desc = "Happy Birthday little clown..."
@@ -198,6 +215,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1)
 	foodtype = GRAIN | DAIRY | JUNKFOOD | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/apple
 	name = "apple cake"
 	desc = "A cake centred with Apple."
@@ -222,6 +240,7 @@
 	filling_color = "#FFFFFF"
 	foodtype = GRAIN | DAIRY
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/slimecake
 	name = "Slime cake"
 	desc = "A cake made of slimes. Probably not electrified."
@@ -239,6 +258,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1, "slime" = 1)
 	foodtype = GRAIN | DAIRY | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/pumpkinspice
 	name = "pumpkin spice cake"
 	desc = "A hollow cake with real pumpkin."
@@ -256,6 +276,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1, "pumpkin" = 1)
 	foodtype = GRAIN | DAIRY | VEGETABLES | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/bsvc // blackberry strawberries vanilla cake
 	name = "blackberry and strawberry vanilla cake"
 	desc = "A plain cake, filled with assortment of blackberries and strawberries!"
@@ -273,6 +294,7 @@
 	tastes = list("blackbarry" = 2, "strawberries" = 2, "vanilla" = 2, "sweetness" = 2,"cake" = 3)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/bscc // blackbarry strawberries chocolate cake
 	name = "blackberry and strawberry chocolate cake"
 	desc = "A plain cake, filled with assortment of blackberries and strawberries!"
@@ -290,6 +312,7 @@
 	tastes = list("blackberry" = 2, "strawberries" = 2, "chocolate" = 2, "sweetness" = 2,"cake" = 3)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/holy_cake
 	name = "angel food cake"
 	desc = "A cake made for angels and chaplains alike! Contains holy water."
@@ -307,6 +330,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1, "clouds" = 1)
 	foodtype = GRAIN | DAIRY | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/pound_cake
 	name = "pound cake"
 	desc = "A condensed cake made for filling people up quickly."
@@ -325,6 +349,7 @@
 	tastes = list("cake" = 5, "sweetness" = 5, "batter" = 1)
 	foodtype = GRAIN | DAIRY | SUGAR | JUNKFOOD
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/hardware_cake
 	name = "hardware cake"
 	desc = "The Brotherhood is going to be SO mad."
@@ -333,6 +358,8 @@
 	bonus_reagents = list(/datum/reagent/toxin/acid = 15, /datum/reagent/oil = 15)
 	tastes = list("acid" = 1, "metal" = 1, "regret" = 10)
 	foodtype = GRAIN | GROSS
+	is_toxic = TRUE
+	is_meme = TRUE
 
 /obj/item/reagent_containers/food/snacks/cakeslice/hardware_cake_slice
 	name = "hardware cake slice"
@@ -341,7 +368,10 @@
 	filling_color = "#00FFFF"
 	tastes = list("acid" = 1, "metal" = 1, "regret" = 10)
 	foodtype = GRAIN | GROSS
+	is_toxic = TRUE
+	is_meme = TRUE
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/vanilla_cake
 	name = "vanilla cake"
 	desc = "A vanilla frosted cake."
@@ -359,6 +389,7 @@
 	tastes = list("cake" = 1, "sugar" = 1, "vanilla" = 10)
 	foodtype = GRAIN | SUGAR | DAIRY
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/clown_cake
 	name = "clown cake"
 	desc = "A funny cake with a clown face on it."
@@ -367,6 +398,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/sugar = 15, /datum/reagent/consumable/laughter = 15)
 	tastes = list("cake" = 1, "sugar" = 1, "joy" = 10)
 	foodtype = GRAIN | SUGAR | DAIRY
+	is_meme = TRUE
 
 /obj/item/reagent_containers/food/snacks/cakeslice/clown_slice
 	name = "clown cake slice"
@@ -375,7 +407,9 @@
 	filling_color = "#00FFFF"
 	tastes = list("cake" = 1, "sugar" = 1, "joy" = 10)
 	foodtype = GRAIN | SUGAR | DAIRY
+	is_meme = TRUE
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/peach_cake
 	name = "peach cake"
 	desc = "A peach filled cake."
@@ -393,6 +427,7 @@
 	tastes = list("cake" = 1, "sugar" = 1, "peachjuice" = 10)
 	foodtype = GRAIN | SUGAR | DAIRY
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/trumpet
 	name = "spaceman's cake"
 	desc = "A spaceman's trumpet frosted cake."
@@ -411,6 +446,7 @@
 	tastes = list("cake" = 4, "violets" = 2, "jam" = 2)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/pavlova
 	name = "pavlova"
 	desc = "A sweet berry pavlova. Invented in New Zealand, some how the cake survived the war."
@@ -427,6 +463,7 @@
 	tastes = list("meringue" = 5, "creaminess" = 1, "berries" = 1)
 	foodtype = DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/fruit
 	name = "english fruitcake"
 	desc = "A proper good cake, innit?"
@@ -451,6 +488,7 @@
 	throwforce = 2
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/plum
 	name = "plum cake"
 	desc = "A cake centred with Plums."
@@ -470,6 +508,7 @@
 	tastes = list("cake" = 5, "sweetness" = 1, "plum" = 2)
 	foodtype = GRAIN | DAIRY | FRUIT | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/wedding
 	name = "wedding cake"
 	desc = "An expensive, multi-tiered cake."
@@ -491,6 +530,7 @@
 	tastes = list("cake" = 3, "frosting" = 1)
 	foodtype = GRAIN | DAIRY | SUGAR
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/cake/mothmallow
 	name = "mothmallow tray"
 	desc = "A light and fluffy vegan marshmallow flavoured with vanilla and rum and topped with soft chocolate. These are known to the moths as höllflöfstarkken: cloud squares." //höllflöf = cloud (höll = wind, flöf = cotton), starkken = squares

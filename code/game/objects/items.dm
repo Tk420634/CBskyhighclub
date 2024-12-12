@@ -195,6 +195,70 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 	/// New variable for backstab multiplier
 	var/backstab_multiplier = 1.15 
 
+	/// FOr the food printer, include it in its nightmare
+	var/is_food = FALSE // NO AMY!! PEPPINO IS NOT FOOD!!
+	/// categories for the food printer
+	var/is_drink = FALSE
+	var/is_snack = FALSE
+	var/is_dinner = FALSE
+	var/is_dessert = FALSE
+	var/is_breakfast = FALSE
+	var/is_lunch = FALSE
+	var/is_appetizer = FALSE
+	var/is_burger = FALSE
+	var/is_sandwich = FALSE
+	var/is_salad = FALSE
+	var/is_soup = FALSE
+	var/is_spicy = FALSE
+	var/is_sweet = FALSE
+	var/is_sour = FALSE
+	var/is_bitter = FALSE
+	var/is_salty = FALSE
+	var/is_savory = FALSE
+	var/is_fruity = FALSE
+	var/is_vegetarian = FALSE
+	var/is_vegan = FALSE
+	var/is_gluten_free = FALSE
+	var/is_dairy_free = FALSE
+	var/is_nut_free = FALSE
+	var/is_drugs = FALSE
+	var/is_alcohol = FALSE
+	var/is_caffeine = FALSE
+	var/is_tea = FALSE
+	var/is_coffee = FALSE
+	var/is_soda = FALSE
+	var/is_bread = FALSE
+	var/is_pizza = FALSE
+	var/is_pasta = FALSE
+	var/is_rice = FALSE
+	var/is_potato = FALSE
+	var/is_fruit = FALSE
+	var/is_cheese = FALSE
+	var/is_dairy = FALSE
+	var/is_buttery = FALSE
+	var/is_hotdog = FALSE
+	var/is_human = FALSE
+	var/is_robot = FALSE
+	var/is_alien = FALSE
+	var/is_huge = FALSE
+	var/is_spooky = FALSE
+	var/is_toxic = FALSE
+	var/is_fish = FALSE
+	var/is_meat = FALSE
+	var/is_meme = FALSE
+	var/is_sliceable = FALSE
+	var/is_cake = FALSE
+	var/is_slice = FALSE
+	var/is_egg = FALSE
+	var/is_icecream = FALSE
+	var/is_sushi = FALSE
+	var/is_insect = FALSE
+
+
+
+
+
+
 /obj/item/Initialize()
 
 	if(attack_verb)

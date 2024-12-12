@@ -434,7 +434,8 @@ All foods are distributed among various categories. Use common sense.
 /obj/item/reagent_containers/food/snacks/store
 	w_class = WEIGHT_CLASS_NORMAL
 	var/stored_item = 0
-
+	is_sliceable = TRUE
+	
 /obj/item/reagent_containers/food/snacks/store/attackby(obj/item/W, mob/user, params)
 	..()
 	if(W.w_class <= WEIGHT_CLASS_SMALL & !istype(W, /obj/item/reagent_containers/food/snacks)) //can't slip snacks inside, they're used for custom foods.
