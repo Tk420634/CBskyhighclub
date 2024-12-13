@@ -50,7 +50,7 @@
 /obj/structure/food_printer/proc/AddPrintJob(FoodKey, amount, mob/user, beacon_override, datum/phone_order/assoc_order)
 	if(!menu)
 		return
-	var/datum/food_menu_entry/food = menu.foods[FoodKey]
+	var/datum/food_menu_entry/food = SSfood_printer.food_menu.foods[FoodKey]
 	if(!food)
 		return
 	var/datum/food_printer_workorder/work = new /datum/food_printer_workorder(src, user)
@@ -228,8 +228,8 @@
 /obj/structure/food_printer/ui_static_data(mob/user)
 	var/list/data = list()
 	data["EntriesPerPage"] = SSfood_printer.entries_per_page
-	data["FoodMenuList"] = menu.TGUI_chunk
-	data["FullFoodMenu"] = menu.full_TGUI_chunk
+	data["FoodMenuList"] = SSfood_printer.food_menu.TGUI_chunk
+	data["FullFoodMenu"] = SSfood_printer.food_menu.full_TGUI_chunk
 	data["CoolTip"] = pick(SSfood_printer.tips)
 	data["Tagline"] = pick(SSfood_printer.taglines)
 	return data
@@ -239,7 +239,7 @@
 	var/mob/user = usr
 	switch(action)
 		if("PrintFood")
-			var/datum/food_menu_entry/food = menu.foods[params["FoodKey"]]
+			var/datum/food_menu_entry/food = SSfood_printer.food_menu.foods[params["FoodKey"]]
 			if(!food)
 				say("Oh! I can't seem to find that recipe! Maybe it's expired?")
 				playsound(src, 'sound/machines/moxi/moxi_hi.ogg', 50, TRUE)
