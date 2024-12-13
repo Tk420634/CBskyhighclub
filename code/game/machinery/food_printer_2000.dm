@@ -35,6 +35,7 @@
 	. = ..()
 	CancelAllOrders()
 	QDEL_NULL(moviefone)
+	menu = null
 	STOP_PROCESSING(SSfood_printer, src)
 
 /obj/structure/food_printer/proc/GeneratePDA()
@@ -49,7 +50,7 @@
 
 /obj/structure/food_printer/proc/AddPrintJob(FoodKey, amount, mob/user, beacon_override, datum/phone_order/assoc_order)
 	if(!menu)
-		return
+		menu = SSfood_printer.food_menu
 	var/datum/food_menu_entry/food = SSfood_printer.food_menu.foods[FoodKey]
 	if(!food)
 		return
