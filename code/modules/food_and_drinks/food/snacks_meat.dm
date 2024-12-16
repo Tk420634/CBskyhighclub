@@ -13,6 +13,9 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/capsaicin = 1)
 	tastes = list("fish" = 4, "batter" = 1, "hot peppers" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_fish = TRUE
+	is_sandwich = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishmeat
 	icon_state = "fishfillet"
@@ -21,6 +24,8 @@
 	foodtype = MEAT
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("fish" = 1)
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishmeat/Initialize()
 	. = ..()
@@ -76,6 +81,8 @@
 
 /obj/item/reagent_containers/food/snacks/fishing
 	icon = 'icons/obj/fish/food.dmi'
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishing/lobster_deluxe
 	name = "lobster deluxe"
@@ -95,6 +102,7 @@
 	tastes = list("fish" = 1, "breadcrumbs" = 1)
 	foodtype = MEAT | GRAIN
 
+////////////////////////////////////////////MEAT////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/fishfingers
 	name = "fish fingers"
 	desc = "A finger of fish."
@@ -105,6 +113,8 @@
 	filling_color = "#CD853F"
 	tastes = list("fish" = 1, "breadcrumbs" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishandchips
 	name = "fish and chips"
@@ -115,6 +125,8 @@
 	filling_color = "#FA8072"
 	tastes = list("fish" = 1, "chips" = 1)
 	foodtype = MEAT | VEGETABLES | FRIED
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishfry
 	name = "fish fry"
@@ -124,6 +136,8 @@
 	filling_color = "#ee7676"
 	tastes = list("fish" = 1, "pan seared vegtables" = 1)
 	foodtype = MEAT | VEGETABLES | FRIED
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/fishtaco
 	name = "fish taco"
@@ -132,6 +146,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("taco" = 4, "meat" = 2, "cheese" = 2, "cabbage" = 1)
 	foodtype = MEAT | DAIRY | GRAIN | VEGETABLES
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/rawantbrain
 	name = "Raw Ant Brain"
@@ -143,6 +159,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("fat" = 4, "bitter meat" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/baked_ant_brain
 	name = "Baked Ant Brain"
@@ -152,6 +170,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("fat" = 2, "bitter meat" = 2)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/sushi_adv
 	name = "funa nigiri"
@@ -163,6 +183,9 @@
 	filling_color = "#F2EEEA" //rgb(242, 238, 234)
 	tastes = list("fish" = 2, "rice" = 2, "salt" = 1)
 	foodtype = MEAT | VEGETABLES
+	is_meat = TRUE
+	is_fish = TRUE
+	is_sushi = TRUE
 
 /obj/item/reagent_containers/food/snacks/sushi_pro
 	name = "funa nigiri"
@@ -174,7 +197,9 @@
 	filling_color = "#F2EEEA" //rgb(242, 238, 234)
 	tastes = list("fish" = 3, "rice" = 2, "salt" = 1)
 	foodtype = MEAT | VEGETABLES
-
+	is_meat = TRUE
+	is_fish = TRUE
+	is_sushi = TRUE
 
 ////////////////////////////////////////////MEATS AND ALIKE////////////////////////////////////////////
 
@@ -186,6 +211,7 @@
 	filling_color = "#F0E68C"
 	tastes = list("tofu" = 1)
 	foodtype = VEGETABLES
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/spiderleg
 	name = "spider leg"
@@ -196,6 +222,9 @@
 	filling_color = "#000000"
 	tastes = list("cobwebs" = 1)
 	foodtype = MEAT | TOXIC
+	is_meat = TRUE
+	is_insect = TRUE
+	is_toxic
 
 /obj/item/reagent_containers/food/snacks/cornedbeef
 	name = "corned beef and cabbage"
@@ -205,6 +234,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 5)
 	tastes = list("meat" = 1, "cabbage" = 1)
 	foodtype = MEAT | VEGETABLES
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/bearsteak
 	name = "Filet migrawr"
@@ -214,6 +244,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("meat" = 1, "salmon" = 1)
 	foodtype = MEAT | ALCOHOL
+	is_meat = TRUE
+	is_huge = TRUE
 
 /obj/item/reagent_containers/food/snacks/rawmeatball
 	name = "raw meatball"
@@ -224,6 +256,7 @@
 	filling_color = "#bd2020"
 	tastes = list("meat" = 1, "slime" = 1)
 	foodtype = MEAT | RAW
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/meatball
 	name = "meatball"
@@ -234,6 +267,7 @@
 	filling_color = "#800000"
 	tastes = list("meat" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/sausage
 	name = "sausage"
@@ -247,6 +281,7 @@
 	slice_path = /obj/item/reagent_containers/food/snacks/salami
 	foodtype = MEAT | BREAKFAST
 	var/roasted = FALSE
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/sausage/Initialize()
 	. = ..()
@@ -260,6 +295,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1)
 	tastes = list("meat" = 1, "smoke" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/meatloaf
 	name = "meatloaf"
@@ -272,6 +308,8 @@
 	slices_num = 5
 	slice_path = /obj/item/reagent_containers/food/snacks/meatloaf_slice
 	foodtype = MEAT
+	is_meat = TRUE
+	is_sliceable = TRUE
 
 /obj/item/reagent_containers/food/snacks/meatloaf_slice
 	name = "meatloaf slice"
@@ -281,6 +319,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/ketchup = 1)
 	tastes = list("meat" = 1, "ketchup" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_slice = TRUE
 
 /obj/item/reagent_containers/food/snacks/pemmican
 	name = "pemmican"
@@ -297,6 +337,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8)
 	tastes = list("meat" = 3, "metal" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/kebab/human
 	name = "human-kebab"
@@ -304,6 +345,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("tender meat" = 3, "metal" = 1)
 	foodtype = MEAT | LONGPORK
+	is_human = TRUE
 
 /obj/item/reagent_containers/food/snacks/kebab/monkey
 	name = "meat-kebab"
@@ -334,6 +376,7 @@
 	cooked_type = /obj/item/reagent_containers/food/snacks/khinkali
 	tastes = list("meat" = 1, "onions" = 1, "garlic" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/khinkali
 	name = "khinkali"
@@ -344,6 +387,7 @@
 	filling_color = "#F0F0F0"
 	tastes = list("meat" = 1, "onions" = 1, "garlic" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/enchiladas
 	name = "enchiladas"
@@ -355,6 +399,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/capsaicin = 6)
 	tastes = list("hot peppers" = 1, "meat" = 3, "cheese" = 1, "sour cream" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/stewedsoymeat
 	name = "stewed soy meat"
@@ -365,6 +410,7 @@
 	filling_color = "#D2691E"
 	tastes = list("soy" = 1, "vegetables" = 1)
 	foodtype = VEGETABLES
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/stewedsoymeat/Initialize()
 	. = ..()
@@ -379,6 +425,9 @@
 	filling_color = "#000000"
 	tastes = list("hot peppers" = 1, "cobwebs" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
+	is_insect = TRUE
+	is_toxic = TRUE
 
 /obj/item/reagent_containers/food/snacks/spidereggsham
 	name = "green eggs and ham"
@@ -390,6 +439,7 @@
 	filling_color = "#7FFF00"
 	tastes = list("meat" = 1, "the colour green" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/sashimi
 	name = "carp sashimi"
@@ -400,6 +450,9 @@
 	filling_color = "#FA8072"
 	tastes = list("fish" = 1, "hot peppers" = 1)
 	foodtype = MEAT | TOXIC
+	is_meat = TRUE
+	is_fish = TRUE
+	is_sushi = TRUE
 
 /obj/item/reagent_containers/food/snacks/nugget
 	name = "chicken nugget"
@@ -408,6 +461,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("\"chicken\"" = 1)
 	foodtype = MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/nugget/Initialize()
 	. = ..()
@@ -424,6 +478,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 9, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/soysauce = 2)
 	tastes = list("\"chicken\"" = 1)
 	foodtype = MEAT | PINEAPPLE
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/pigblanket
 	name = "pig in a blanket"
@@ -440,6 +495,7 @@
 	icon_state = "corndog"
 	tastes = list("hotdog" = 2, "mustard and ketchup" = 1, "fryed bread" = 1)
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/mustard = 5, /datum/reagent/consumable/ketchup = 5)
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/kebab/rat
 	name = "rat-kebab"
@@ -449,13 +505,14 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("rat meat" = 1, "metal" = 1)
 	foodtype = MEAT | GROSS
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/kebab/rat/double
 	name = "double rat-kebab"
 	icon_state = "doubleratkebab"
 	tastes = list("rat meat" = 2, "metal" = 1)
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
-
+/// nuts to this, im just gonna have a search bar in the thing - Dan gave up here: 12/3/024
 /obj/item/reagent_containers/food/snacks/kebab/fiesta
 	name = "fiesta skewer"
 	icon_state = "fiestaskewer"
@@ -512,13 +569,14 @@
 	tastes = list("broken" = 1, "code" = 1)
 	foodtype = MEAT | SUGAR
 	var/dried_being = /mob/living/carbon/monkey //What the cube will spawn mob wise
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/snacks/cube/On_Consume(mob/living/carbon/M)
 	if(iscarbon(M))
 		M.visible_message("[src] bursts out of [M]!</span>")
 		M.emote("scream")
 		M.DefaultCombatKnockdown(40)
-		M.adjustBruteLoss(60)
+		// M.adjustBruteLoss(60)
 		Expand()
 		return TRUE
 	return ..()
@@ -538,28 +596,33 @@
 	desc = "Just add water!"
 	tastes = list("the jungle" = 1, "bananas" = 1)
 	dried_being = /mob/living/carbon/monkey
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/snacks/cube/beno
 	name = "alien drone cube"
 	desc = "Just add water and run!"
 	tastes = list("the jungle" = 1, "acid" = 1)
 	dried_being = /mob/living/carbon/alien/humanoid/drone
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/snacks/cube/goat
 	name = "goat cube"
 	tastes = list("grass" = 1)
 	dried_being = /mob/living/simple_animal/hostile/retaliate/goat
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/snacks/cube/cow
 	name = "cow cube"
 	tastes = list("milk" = 1, "beef" = 1)
 	dried_being = /mob/living/simple_animal/cow
+	is_food = FALSE
 
 /obj/item/reagent_containers/food/snacks/cube/ape
 	name = "ape cube"
 	desc = "Don't add water."
 	tastes = list("the jungle" = 1, "bananas" = 1, "jimmies" = 1)
 	dried_being = /mob/living/simple_animal/hostile/gorilla
+	is_food = FALSE // as funny as gorillas are, they kinda soil the vibe
 
 /obj/item/reagent_containers/food/snacks/cube/egg
 //Well eggs normally are able to hatch into small birds, this one does not.

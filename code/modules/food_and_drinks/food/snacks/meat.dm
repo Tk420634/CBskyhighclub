@@ -34,7 +34,7 @@
 
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human
-	name = "meat"
+	name = "humanlike meat"
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/plain/human
 	slice_path = /obj/item/reagent_containers/food/snacks/meat/rawcutlet/plain/human
 	tastes = list("tender meat" = 1)
@@ -71,7 +71,7 @@
 	foodtype = RAW | MEAT
 
 /obj/item/reagent_containers/food/snacks/meat/crab
-	name = "crab meat"
+	name = "crab steak"
 	desc = "Some deliciously cooked crab meat."
 	icon_state = "crabmeat"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -89,6 +89,7 @@
 	tastes = list("chicken" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/slime
+	name = "slimeperson meat"
 	icon_state = "slimemeat"
 	desc = "Because jello wasn't offensive enough to vegans."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/toxin/slimejelly = 3)
@@ -97,6 +98,7 @@
 	foodtype = MEAT | RAW | TOXIC
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/golem
+	name = "iron golem meat"
 	icon_state = "golemmeat"
 	desc = "Edible rocks, welcome to the future."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/iron = 3)
@@ -105,12 +107,14 @@
 	foodtype = MEAT | RAW | GROSS
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/golem/adamantine
+	name = "adamantine golem meat"
 	icon_state = "agolemmeat"
 	desc = "From the slime pen to the rune to the kitchen, science."
 	filling_color = "#66CDAA"
 	foodtype = MEAT | RAW | GROSS
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/lizard
+	name = "lizard meat"
 	icon_state = "lizardmeat"
 	desc = "Delicious dino damage."
 	filling_color = "#6B8E23"
@@ -118,6 +122,7 @@
 	foodtype = MEAT | RAW
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/plant
+	name = "plantperson meat"
 	icon_state = "plantmeat"
 	desc = "All the joys of healthy eating with all the fun of cannibalism."
 	filling_color = "#E9967A"
@@ -125,6 +130,7 @@
 	foodtype = VEGETABLES
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/shadow
+	name = "shadow the meatslab"
 	icon_state = "shadowmeat"
 	desc = "Ow, the edge."
 	filling_color = "#202020"
@@ -132,6 +138,7 @@
 	foodtype = MEAT | RAW
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/fly
+	name = "flyperson meat"
 	icon_state = "flymeat"
 	desc = "Nothing says tasty like maggot filled radioactive mutant flesh."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/uranium = 3)
@@ -139,6 +146,7 @@
 	foodtype = MEAT | RAW | GROSS
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/insect
+	name = "mothman meat"
 	icon_state = "mothmeat"
 	desc = "Unpleasantly powdery and dry. Kind of pretty, though."
 	filling_color = "#BF896B"
@@ -155,7 +163,7 @@
 	foodtype = GROSS
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/zombie
-	name = " meat (rotten)"
+	name = "rotten zombie meat"
 	icon_state = "rottenmeat"
 	desc = "Halfway to becoming fertilizer for your garden."
 	filling_color = "#6B8E23"
@@ -163,6 +171,7 @@
 	foodtype = RAW | MEAT | TOXIC
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/ethereal
+	name = "ethereal meat"
 	icon_state = "etherealmeat"
 	desc = "So shiny you feel like ingesting it might make you shine too"
 	filling_color = "#97ee63"
@@ -171,22 +180,25 @@
 	foodtype = RAW | MEAT | TOXIC
 
 /obj/item/reagent_containers/food/snacks/fishmeat/carp/aquatic
-	name = "fillet"
+	name = "fish fillet"
 	desc = "A fillet of one of the local water dwelling species."
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/ipc
+	name = "robot meat"
 	icon_state = "ipcmeat"
 	desc = "Gross robot meat."
 	filling_color = "#000000"
 	tastes = list("metal" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/avian
+	name = "birdperson meat"
 	desc = "Tastes like chicken, that's because it is!"
 	icon_state = "birdmeat"
 	filling_color = "#BF896B"
 	tastes = list("chicken" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/mammal
+	name = "furry meat"
 	desc = "Tastes sweet... reminds you vaguely of chicken."
 	filling_color = "#6B8E23"
 	tastes = list("brains" = 1, "meat" = 1)
@@ -244,7 +256,7 @@
 	foodtype = RAW | MEAT
 
 /obj/item/reagent_containers/food/snacks/meat/slab/xeno
-	name = "mutant meat"
+	name = "alien meat"
 	desc = "A slab of meat."
 	icon_state = "xenomeat"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 1)
@@ -344,19 +356,21 @@
 	tastes = list("meat" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/steak/chicken
-	name = "chicken breast"
+	name = "chicken steak"
 	icon_state = "chickenbreast_cooked"
 	tastes = list("chicken" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/steak/fish
-	name = "fish fillet"
+	name = "fish steak"
 	icon_state = "grilled_carp_slice"
 	tastes = list("charred sushi" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/steak/plain
+	name = "tasty steak"
 	foodtype = MEAT
 
 /obj/item/reagent_containers/food/snacks/meat/steak/plain/human
+	name = "human steak"
 	tastes = list("tender meat" = 1)
 	foodtype = MEAT | GROSS
 
@@ -420,9 +434,11 @@
 
 
 /obj/item/reagent_containers/food/snacks/meat/rawcutlet/plain
+	name = "raw tasty cutlet"
 	foodtype = MEAT
 
 /obj/item/reagent_containers/food/snacks/meat/rawcutlet/plain/human
+	name = "human cutlet"
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/cutlet/plain/human
 	tastes = list("tender meat" = 1)
 	foodtype = MEAT | RAW | LONGPORK
@@ -473,7 +489,7 @@
 //Cooked cutlets
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet
-	name = "cutlet"
+	name = "cooked cutlet"
 	desc = "A cooked meat cutlet."
 	icon_state = "cutlet"
 	bitesize = 2
@@ -484,40 +500,42 @@
 	foodtype = MEAT
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/plain
+	name = "cooked tasty cutlet"
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/plain/human
+	name = "cooked human cutlet"
 	tastes = list("tender meat" = 1)
 	foodtype = MEAT | GROSS
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/killertomato
-	name = "killer tomato cutlet"
+	name = "cooked killer tomato cutlet"
 	tastes = list("tomato" = 1)
 	foodtype = FRUIT
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/bear
-	name = "bear cutlet"
+	name = "cooked bear cutlet"
 	tastes = list("meat" = 1, "salmon" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/xeno
-	name = "xeno cutlet"
+	name = "cooked xeno cutlet"
 	tastes = list("meat" = 1, "acid" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/spider
-	name = "spider cutlet"
+	name = "cooked spider cutlet"
 	tastes = list("cobwebs" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/gondola
-	name = "gondola cutlet"
+	name = "cooked gondola cutlet"
 	tastes = list("meat" = 1, "tranquility" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/penguin
-	name = "penguin cutlet"
+	name = "cooked penguin cutlet"
 	tastes = list("beef" = 1, "cod fish" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/chicken
-	name = "chicken cutlet"
+	name = "cooked chicken cutlet"
 	tastes = list("chicken" = 1)
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/wisdomcow
-	name = "wisdom cow cutlet"
+	name = "cooked wisdom cow cutlet"
 	tastes = list("meat" = 1, "wisdom" = 5)

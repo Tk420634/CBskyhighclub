@@ -21,6 +21,8 @@
 	if(toxpwr)
 		M.adjustToxLoss(toxpwr*REM, 0)
 		. = TRUE
+	if(metabolization_rate < 2)
+		metabolization_rate = 2
 	..()
 
 /datum/reagent/toxin/on_mob_life_synth(mob/living/carbon/M)
@@ -222,8 +224,8 @@
 	..()
 
 /datum/reagent/toxin/minttoxin
-	name = "Mint Toxin"
-	description = "Useful for dealing with undesirable customers."
+	name = "Mint"
+	description = "Delicious delicious mint."
 	color = "#CF3600" // rgb: 207, 54, 0
 	toxpwr = 0
 	taste_description = "mint"
@@ -232,13 +234,14 @@
 
 /datum/reagent/toxin/minttoxin/on_mob_life(mob/living/carbon/M)
 	if(HAS_TRAIT(M, TRAIT_FAT))
-		M.unequip_everything()
-		M.visible_message(span_userdanger("[src]'s belly suddenly explodes in a shower of gore!"))
-		M.spew_organ()
-		explosion(M, 0, 1, 1)
-		for(var/i in 1 to 10)
-			M.spawn_gibs(FALSE) // a *shower* of gore
-		qdel(src)
+		to_chat(M, span_green("Yum, mint!")) // scrcew you, I like mint
+		// M.unequip_everything()
+		// M.visible_message(span_userdanger("[src]'s belly suddenly explodes in a shower of gore!"))
+		// M.spew_organ()
+		// explosion(M, 0, 1, 1)
+		// for(var/i in 1 to 10)
+		// 	M.spawn_gibs(FALSE) // a *shower* of gore
+		// qdel(src)
 	return ..()
 
 /datum/reagent/toxin/carpotoxin

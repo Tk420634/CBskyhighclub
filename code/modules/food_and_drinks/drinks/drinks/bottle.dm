@@ -99,6 +99,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/gin = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/gin/empty
+	name = "Griffeater gin (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/whiskey
@@ -108,6 +109,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/whiskey/empty
+	name = "Uncle Git's special reserve (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/vodka
@@ -117,6 +119,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/vodka/empty
+	name = "Tunguska triple distilled (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/vodka/badminka
@@ -131,6 +134,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/tequila = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/tequila/empty
+	name = "Caccavo guaranteed quality tequila (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/f13nukacola
@@ -197,6 +201,7 @@
 	knockdown_duration = 0
 
 /obj/item/reagent_containers/food/drinks/bottle/holyoil/empty
+	name = "flask of zelus oil (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/vermouth
@@ -206,6 +211,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/vermouth = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/vermouth/empty
+	name = "Goldeneye vermouth (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/kahlua
@@ -216,6 +222,7 @@
 	foodtype = VEGETABLES
 
 /obj/item/reagent_containers/food/drinks/bottle/kahlua/empty
+	name = "Robert Robust's coffee liqueur (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/goldschlager
@@ -225,6 +232,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/goldschlager = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/goldschlager/empty
+	name = "College Girl goldschlager (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/cognac
@@ -234,6 +242,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/cognac = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/cognac/empty
+	name = "Chateau de Baton premium cognac (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/wine
@@ -244,6 +253,7 @@
 	foodtype = FRUIT | ALCOHOL
 
 /obj/item/reagent_containers/food/drinks/bottle/wine/empty
+	name = "Doublebeard's bearded special wine (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/absinthe
@@ -253,6 +263,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/absinthe = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/absinthe/empty
+	name = "extra-strong absinthe (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/absinthe/Initialize()
@@ -315,6 +326,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/hcider = 50)
 
 /obj/item/reagent_containers/food/drinks/bottle/hcider/empty
+	name = "Jian Hard Cider (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/grappa
@@ -324,6 +336,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/grappa = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/grappa/empty
+	name = "Phillipes well-aged Grappa (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/sake
@@ -333,6 +346,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/sake = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/sake/empty
+	name = "Ryo's traditional sake (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/sake/Initialize()
@@ -353,6 +367,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/sake = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/sake2/empty
+	name = "Fluffy Tail Sake (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/fernet
@@ -362,6 +377,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/fernet = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/fernet/empty
+	name = "Fernet Bronca (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/applejack
@@ -373,6 +389,7 @@
 	foodtype = FRUIT
 
 /obj/item/reagent_containers/food/drinks/bottle/applejack/empty
+	name = "Buckin' Bronco's Applejack (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/champagne
@@ -382,6 +399,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/champagne = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/champagne/empty
+	name = "Lead Champagne (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/blazaam
@@ -391,6 +409,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/blazaam = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/blazaam/empty
+	name = "Ginbad's Blazaam (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/trappist
@@ -402,6 +421,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/trappist = 50)
 
 /obj/item/reagent_containers/food/drinks/bottle/trappist/empty
+	name = "Mont de Requin Trappistes Bleu (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/rotgut
@@ -411,7 +431,8 @@
 	icon_state = "rotgut"
 	list_reagents = list(/datum/reagent/consumable/ethanol/rotgut = 100)
 
-/obj/item/reagent_containers/food/drinks/bottle/tequila/empty
+/obj/item/reagent_containers/food/drinks/bottle/rotgut/empty
+	name = "Caccavo guaranteed quality tequila (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/hooch
@@ -421,6 +442,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/hooch = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/hooch/empty
+	name = "hooch bottle (empty)"
 	list_reagents = null
 
 /obj/item/reagent_containers/food/drinks/bottle/amaretto
@@ -430,6 +452,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/amaretto/empty
+	name = "Luini Amaretto (empty)"
 	list_reagents = null
 
 //////////////////////////JUICES AND STUFF ///////////////////////
@@ -592,6 +615,7 @@
 	foodtype = FRUIT
 
 /obj/item/reagent_containers/food/drinks/bottle/grenadine/empty
+	name = "Jester Grenadine (empty)"
 	list_reagents = null
 
 /obj/item/export/bottle

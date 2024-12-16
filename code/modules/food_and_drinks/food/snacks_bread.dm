@@ -6,6 +6,8 @@
 	tastes = list("bread" = 10)
 	foodtype = GRAIN
 	dunkable = TRUE
+	is_bread = TRUE
+	is_vegetarian = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice
 	icon = 'icons/obj/food/burgerbread.dmi'
@@ -17,6 +19,8 @@
 	customfoodfilling = 0 //to avoid infinite bread-ception
 	foodtype = GRAIN
 	dunkable = TRUE
+	is_bread = TRUE
+	is_slice = TRUE
 
 /obj/item/reagent_containers/food/snacks/store/bread/plain
 	name = "bread"
@@ -36,6 +40,7 @@
 	customfoodfilling = 1
 	foodtype = GRAIN
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/meat
 	name = "meatbread loaf"
 	desc = "The culinary base of every self-respecting eloquent gentleman."
@@ -45,13 +50,16 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bread" = 10, "meat" = 10)
 	foodtype = GRAIN | MEAT
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/meat
 	name = "meatbread slice"
 	desc = "A slice of delicious meatbread."
 	icon_state = "meatbreadslice"
 	foodtype = GRAIN | MEAT
+	is_meat = TRUE
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/xenomeat
 	name = "mutant meatbread loaf"
 	desc = "The culinary base of every self-respecting mutant meat enjoyer. Extra spicy."
@@ -61,6 +69,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bread" = 10, "acid" = 10)
 	foodtype = GRAIN | MEAT
+	is_meat = TRUE
+	is_alien = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/xenomeat
 	name = "mutant meatbread slice"
@@ -69,7 +79,10 @@
 	filling_color = "#32CD32"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | MEAT
+	is_meat = TRUE
+	is_alien = TRUE
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/spidermeat
 	name = "spider meat loaf"
 	desc = "Reassuringly green meatloaf made from spider meat."
@@ -79,6 +92,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/toxin = 15, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bread" = 10, "cobwebs" = 5)
 	foodtype = GRAIN | MEAT | TOXIC
+	is_meat = TRUE
+	is_insect = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/spidermeat
 	name = "spider meat bread slice"
@@ -87,7 +102,10 @@
 	filling_color = "#7CFC00"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/toxin = 3, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | MEAT | TOXIC
+	is_meat = TRUE
+	is_insect = TRUE
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/banana
 	name = "banana-nut bread"
 	desc = "A heavenly and filling treat."
@@ -97,7 +115,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/banana = 20)
 	tastes = list("bread" = 10) // bananjuice will also flavour
 	foodtype = GRAIN | FRUIT
-
+	is_fruit = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/banana
 	name = "banana-nut bread slice"
@@ -106,7 +124,9 @@
 	filling_color = "#FFD700"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/banana = 4)
 	foodtype = GRAIN | FRUIT
+	is_fruit = TRUE
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/tofu
 	name = "Tofubread"
 	desc = "Like meatbread but for vegetarians. Not guaranteed to give superpowers."
@@ -116,6 +136,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bread" = 10, "tofu" = 10)
 	foodtype = GRAIN | VEGETABLES
+	is_fruit = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/tofu
 	name = "tofubread slice"
@@ -124,7 +145,9 @@
 	filling_color = "#FF8C00"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | VEGETABLES
+	is_fruit = TRUE
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/creamcheese
 	name = "cream cheese bread"
 	desc = "Yum yum yum!"
@@ -134,6 +157,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bread" = 10, "cheese" = 10)
 	foodtype = GRAIN | DAIRY
+	is_cheese = TRUE
+	is_dairy = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/creamcheese
 	name = "cream cheese bread slice"
@@ -142,6 +167,8 @@
 	filling_color = "#FF8C00"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | DAIRY
+	is_cheese = TRUE
+	is_dairy = TRUE
 
 /obj/item/reagent_containers/food/snacks/breadslice/custom
 	name = "bread slice"
@@ -149,6 +176,7 @@
 	filling_color = "#FFFFFF"
 	foodtype = GRAIN
 
+////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/store/bread/corn
 	name = "cornbread"
 	desc = "Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread."
@@ -178,6 +206,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	tastes = list("bread" = 1)
 	foodtype = GRAIN
+	is_bread = TRUE
 
 /obj/item/reagent_containers/food/snacks/garlicbread
 	name = "garlic bread"
@@ -190,6 +219,8 @@
 	bitesize = 3
 	tastes = list("bread" = 1, "garlic" = 1, "butter" = 1)
 	foodtype = GRAIN
+	is_bread = TRUE
+	is_buttery = TRUE
 
 /obj/item/reagent_containers/food/snacks/butteredtoast
 	name = "buttered toast"
@@ -202,6 +233,9 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("butter" = 1, "toast" = 1)
 	foodtype = GRAIN | BREAKFAST
+	is_bread = TRUE
+	is_buttery = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/butterbiscuit
 	name = "butter biscuit"
@@ -213,6 +247,9 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("butter" = 1, "biscuit" = 1)
 	foodtype = GRAIN | BREAKFAST
+	is_bread = TRUE
+	is_buttery = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/butterdog
 	name = "butterdog"
@@ -224,6 +261,9 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 5)
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("butter", "exotic butter")
+	is_bread = TRUE
+	is_buttery = TRUE
+	is_hotdog = TRUE
 
 /obj/item/reagent_containers/food/snacks/butterdog/ComponentInitialize()
 	. = ..()
@@ -240,6 +280,8 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("butter" = 1, "fluffy bread" = 1)
 	foodtype = GRAIN | BREAKFAST
+	is_bread = TRUE
+	is_buttery = TRUE
 
 /obj/item/reagent_containers/food/snacks/frenchtoast
 	name = "french toast"
@@ -252,3 +294,6 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("butter" = 1, "fluffy bread" = 1)
 	foodtype = GRAIN | BREAKFAST
+	is_bread = TRUE
+	is_buttery = TRUE
+	is_breakfast = TRUE

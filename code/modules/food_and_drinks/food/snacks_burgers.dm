@@ -6,6 +6,10 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("bun" = 4)
 	foodtype = GRAIN | MEAT
+	is_burger = TRUE
+	is_meat = TRUE
+	is_sandwich = TRUE
+	is_snack = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/plain
 	name = "burger"
@@ -32,6 +36,7 @@
 	desc = "A bloody burger."
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 4)
 	foodtype = MEAT | GRAIN | GROSS
+	is_human = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/human/CheckParts(list/parts_list)
 	..()
@@ -51,6 +56,7 @@
 	desc = "I monster."
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | MEAT | GROSS
+	disable_human_mood
 
 /obj/item/reagent_containers/food/snacks/burger/appendix
 	name = "appendix burger"
@@ -59,6 +65,7 @@
 	icon_state = "appendixburger"
 	tastes = list("bun" = 4, "grass" = 2)
 	foodtype = GRAIN | MEAT | GROSS
+	is_human = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/fish
 	name = "fillet -o- carp sandwich"
@@ -67,6 +74,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("bun" = 4, "fish" = 4)
 	foodtype = GRAIN | MEAT
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/tofu
 	name = "tofu burger"
@@ -75,25 +83,30 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("bun" = 4, "tofu" = 4)
 	foodtype = GRAIN | VEGETABLES
+	is_vegetarian = TRUE
+	is_meat = FALSE
 
 /obj/item/reagent_containers/food/snacks/burger/roburger
 	name = "roburger"
 	desc = "The lettuce is the only organic component. Beep."
 	icon_state = "roburger"
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/nanomachines = 2, /datum/reagent/consumable/nutriment/vitamin = 5)
-	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/nanomachines = 5, /datum/reagent/consumable/nutriment/vitamin = 1)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 5)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("bun" = 4, "lettuce" = 2, "sludge" = 1)
 	foodtype = GRAIN | TOXIC
+	is_robot = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/roburgerbig
 	name = "roburger"
 	desc = "This massive patty looks like poison. Beep."
 	icon_state = "roburger"
 	volume = 120
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/nanomachines = 70, /datum/reagent/consumable/nutriment/vitamin = 10)
-	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/nanomachines = 70, /datum/reagent/consumable/nutriment/vitamin = 5)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 10)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("bun" = 4, "lettuce" = 2, "sludge" = 1)
 	foodtype = GRAIN | TOXIC
+	is_robot = TRUE
+	is_huge = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/xeno
 	name = "mutant burger"
@@ -102,6 +115,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("bun" = 4, "acid" = 4)
 	foodtype = GRAIN | MEAT
+	is_alien = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/bearger
 	name = "bearger"
@@ -109,6 +123,7 @@
 	icon_state = "bearger"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 6)
 	foodtype = GRAIN | MEAT
+	is_huge = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/brain
 	name = "brainburger"
@@ -118,6 +133,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/medicine/mannitol = 5, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("bun" = 4, "brains" = 2)
 	foodtype = GRAIN | MEAT | GROSS
+	is_human = TRUE
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/food/snacks/burger/ghost
@@ -130,6 +146,7 @@
 	alpha = 170
 	verb_say = "moans"
 	verb_yell = "wails"
+	is_spooky = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/ghost/Initialize()
 	. = ..()
@@ -248,6 +265,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 2)
 	w_class = WEIGHT_CLASS_NORMAL
 	foodtype = GRAIN | MEAT
+	is_huge = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/jelly
 	name = "jelly burger"
@@ -255,11 +273,13 @@
 	icon_state = "jellyburger"
 	tastes = list("bun" = 4, "jelly" = 2)
 	foodtype = GRAIN | MEAT
+	is_fruity = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/jelly/slime
 	bonus_reagents = list(/datum/reagent/toxin/slimejelly = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/toxin/slimejelly = 5, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | TOXIC
+	is_toxic = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/jelly/cherry
 	bonus_reagents = list(/datum/reagent/consumable/cherryjelly = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
@@ -277,6 +297,7 @@
 	volume = 100
 	tastes = list("bun" = 4, "type two diabetes" = 10)
 	foodtype = GRAIN | MEAT
+	is_huge = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/fivealarm
 	name = "five alarm burger"
@@ -285,6 +306,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 5)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/capsaicin = 5, /datum/reagent/consumable/condensedcapsaicin = 5, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | MEAT
+	is_spicy = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/rat
 	name = "rat burger"
@@ -299,6 +321,7 @@
 	icon_state = "baseball"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	foodtype = GRAIN | GROSS
+	is_meme = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/baconburger
 	name = "bacon burger"
@@ -315,6 +338,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/liquidelectricity = 5)
 	tastes = list("bun" = 2, "pure electricity" = 4)
 	foodtype = GRAIN | TOXIC
+	is_toxic = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/soylent
 	name = "soylent burger"
@@ -323,6 +347,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("bun" = 2, "assistant" = 4)
 	foodtype = GRAIN | MEAT | DAIRY
+	is_human = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/crab
 	name = "crab burger"
@@ -331,6 +356,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("bun" = 2, "crab meat" = 4)
 	foodtype = GRAIN | MEAT
+	is_fish = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/rib
 	name = "mcrib"
@@ -339,6 +365,7 @@
 	bonus_reagents = list(/datum/reagent/consumable/bbqsauce = 5, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("bun" = 2, "pork patty" = 4)
 	foodtype = GRAIN | MEAT
+	is_meme = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/mcguffin
 	name = "mcguffin"
@@ -347,6 +374,7 @@
 	tastes = list("muffin" = 2, "bacon" = 3)
 	bonus_reagents = list(/datum/reagent/consumable/eggyolk = 3, /datum/reagent/consumable/nutriment = 1)
 	foodtype = GRAIN | MEAT | BREAKFAST
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/burger/chicken
 	name = "chicken sandwich" //Apparently the proud people of Americlapstan object to this thing being called a burger. Apparently McDonald's just calls it a burger in Europe as to not scare and confuse us.

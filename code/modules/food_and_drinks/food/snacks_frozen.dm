@@ -7,6 +7,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/ice = 2)
 	tastes = list("ice cream" = 1)
 	foodtype = GRAIN | DAIRY
+	is_icecream = TRUE
+	is_sandwich = TRUE
 
 /obj/item/reagent_containers/food/snacks/sundae
 	name = "sundae"
@@ -17,6 +19,7 @@
 	filling_color = "#FFFACD"
 	tastes = list("ice cream" = 1, "banana" = 1)
 	foodtype = FRUIT | DAIRY | SUGAR
+	is_icecream = TRUE
 
 /obj/item/reagent_containers/food/snacks/banana_split
 	name = "banana split"
@@ -28,6 +31,8 @@
 	filling_color = "#FFFACD"
 	tastes = list("ice cream" = 1, "banana" = 1, "charries" = 1)
 	foodtype = FRUIT | DAIRY | SUGAR
+	is_icecream = TRUE
+	is_fruit = TRUE
 
 /obj/item/reagent_containers/food/snacks/cola_float
 	name = "Root Beer Float"
@@ -39,6 +44,8 @@
 	filling_color = "#FFFACD"
 	tastes = list("ice cream" = 1, "space coal" = 1, "cherries" = 1)
 	foodtype = FRUIT | DAIRY | SUGAR
+	is_icecream = TRUE
+	is_drink = TRUE
 
 /obj/item/reagent_containers/food/snacks/charrie_float
 	name = "Cherry Shake"
@@ -50,6 +57,8 @@
 	filling_color = "#FFFACD"
 	tastes = list("ice cream" = 1, "charries" = 1)
 	foodtype = FRUIT | DAIRY | SUGAR
+	is_icecream = TRUE
+	is_drink = TRUE
 
 /obj/item/reagent_containers/food/snacks/bluecharrie_float
 	name = "Blue Cherry Shake"
@@ -61,6 +70,8 @@
 	filling_color = "#FFFACD"
 	tastes = list("ice cream" = 1, "blue cherries" = 1)
 	foodtype = FRUIT | DAIRY | SUGAR
+	is_icecream = TRUE
+	is_drink = TRUE
 
 /obj/item/reagent_containers/food/snacks/freezy
 	name = "freezy"
@@ -71,6 +82,9 @@
 	filling_color = "#87CEFA"
 	tastes = list("blue cherries" = 2, "ice cream" = 2)
 	foodtype = FRUIT | DAIRY
+	is_icecream = TRUE
+	is_drink = TRUE
+
 /////////////
 //SNOWCONES//
 /////////////
@@ -86,6 +100,7 @@
 	filling_color = "#FFFFFF" //Ice is white
 	tastes = list("ice" = 1, "water" = 1)
 	foodtype = SUGAR //We use SUGAR as a base line to act in as junkfood, other wise we use fruit
+	is_icecream = TRUE
 
 /obj/item/reagent_containers/food/snacks/snowcones/lime
 	name = "lime snowcone"

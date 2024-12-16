@@ -10,6 +10,7 @@
 	filling_color = "#A0522D"
 	tastes = list("chocolate" = 4, "sweetness" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	is_egg = TRUE
 
 /obj/item/reagent_containers/food/snacks/egg
 	name = "egg"
@@ -20,6 +21,8 @@
 	filling_color = "#F0E68C"
 	foodtype = MEAT
 	grind_results = list()
+	is_egg = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/egg/gland
 	desc = "An egg! It looks weird..."
@@ -85,6 +88,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
 	tastes = list("egg" = 4, "salt" = 1, "pepper" = 1)
 	foodtype = MEAT | FRIED | BREAKFAST
+	is_egg = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/baconegg
 	name = "bacon and eggs"
@@ -95,6 +100,9 @@
 	filling_color = "#FFFFF0"
 	tastes = list("egg" = 2, "bacon" = 2, "salt" = 1, "pepper" = 1)
 	foodtype = MEAT | FRIED | BREAKFAST
+	is_egg = TRUE
+	is_breakfast = TRUE
+	is_meat = TRUE
 
 /obj/item/reagent_containers/food/snacks/boiledegg
 	name = "boiled egg"
@@ -105,8 +113,10 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("egg" = 1)
 	foodtype = MEAT | BREAKFAST
+	is_egg = TRUE
+	is_breakfast = TRUE
 
-/obj/item/reagent_containers/food/snacks/omelette	//FUCK THIS
+/obj/item/reagent_containers/food/snacks/omelette
 	name = "omelette du fromage"
 	desc = "That's all you can say!"
 	icon_state = "omelette"
@@ -116,16 +126,18 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	tastes = list("egg" = 1, "cheese" = 1)
 	foodtype = MEAT | BREAKFAST
+	is_egg = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/omelette/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/kitchen/fork))
 		var/obj/item/kitchen/fork/F = W
 		if(F.forkload)
-			to_chat(user, span_warning("I already have omelette on your fork!"))
+			to_chat(user, span_warning("I already have omelette on my fork!"))
 		else
 			F.icon_state = "forkloaded"
 			user.visible_message("[user] takes a piece of omelette with [user.p_their()] fork!", \
-				span_notice("I take a piece of omelette with your fork."))
+				span_notice("I take a piece of omelette with my fork."))
 
 			var/datum/reagent/R = pick(reagents.reagent_list)
 			reagents.remove_reagent(R.type, 1)
@@ -144,6 +156,8 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("egg" = 1, "bacon" = 1, "bun" = 1)
 	foodtype = MEAT | BREAKFAST
+	is_egg = TRUE
+	is_breakfast = TRUE
 
 /obj/item/reagent_containers/food/snacks/scotchegg
 	name = "scotch egg"
@@ -153,3 +167,5 @@
 	bitesize = 3
 	filling_color = "#FFFFF0"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6)
+	is_egg = TRUE
+	is_breakfast = TRUE

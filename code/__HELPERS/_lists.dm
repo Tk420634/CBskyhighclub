@@ -947,6 +947,11 @@
 		return maybelist
 	return list(maybelist)
 
+/proc/numberfy(maybenum)
+	if(isnum(maybenum))
+		return maybenum
+	return text2num(maybenum)
+
 /// Used to have a var automagically swap between a list of options
 /// returns the next option (or the first if its the end)
 /proc/rotate_vars(current, list/options)
