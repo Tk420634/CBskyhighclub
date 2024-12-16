@@ -530,6 +530,9 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"dfn" = (
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "dga" = (
 /obj/structure/closet/cabinet/anchored,
 /obj/item/clothing/under/f13/mprostitute,
@@ -584,12 +587,20 @@
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"dua" = (
+/obj/structure/bookcase,
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "dxX" = (
 /obj/effect/landmark/start/f13/wastelander,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2"
 	},
 /area)
+"dyD" = (
+/obj/structure/table,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "dAC" = (
 /obj/structure/chair/stool,
 /obj/effect/turf_decal/siding/wood{
@@ -899,6 +910,12 @@
 /obj/structure/chair/stool/retro/tan,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"ezw" = (
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "eBd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/simple_door/metal/store,
@@ -1059,6 +1076,12 @@
 /obj/structure/table/booth,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"fKH" = (
+/obj/structure/decoration/clock/active,
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/bridge/meeting_room)
 "fNI" = (
 /obj/structure/table/abductor,
 /obj/effect/turf_decal/siding/wood{
@@ -1072,6 +1095,12 @@
 /obj/item/clothing/head/christmashatg,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"fNJ" = (
+/obj/structure/simple_door/wood/alt,
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/bridge/meeting_room)
 "fRv" = (
 /obj/machinery/telecomms/server/presets/science,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -1274,7 +1303,7 @@
 	},
 /area/f13/fb/bar)
 "gHV" = (
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/floor/wood_common,
 /area/bridge/meeting_room)
 "gJF" = (
 /obj/structure/chair/folding{
@@ -1476,6 +1505,15 @@
 "hrM" = (
 /turf/closed/indestructible/f13/matrix,
 /area/f13/wasteland)
+"hwS" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/bridge/meeting_room)
 "hAy" = (
 /obj/effect/landmark/start/f13/wastelander/clubworker,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -1824,7 +1862,8 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "jUQ" = (
-/turf/open/indestructible/ground/outside/desert,
+/obj/structure/bed/pod,
+/turf/open/floor/f13,
 /area/crew_quarters/dorms)
 "jYx" = (
 /obj/machinery/plantgenes,
@@ -1848,6 +1887,10 @@
 "kke" = (
 /turf/closed/indestructible/f13/matrix,
 /area)
+"kpC" = (
+/obj/item/kirbyplants/bonsai/orange,
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "krA" = (
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
@@ -2119,6 +2162,9 @@
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area)
+"lII" = (
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "lJE" = (
 /obj/effect/sound_emitter/foxybar/ceilingfan,
 /obj/structure/flora/tree/pine/xmas,
@@ -2179,6 +2225,17 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"miJ" = (
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
+"mnX" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "msa" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1;
@@ -2220,6 +2277,12 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"myY" = (
+/obj/structure/chair/comfy/green{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "mBj" = (
 /obj/structure/mirror{
 	pixel_y = 31
@@ -2328,6 +2391,9 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area)
+"ngO" = (
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "niY" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
@@ -2351,11 +2417,23 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"njA" = (
+/obj/structure/chair/folding{
+	dir = 1
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "nmP" = (
 /obj/structure/simple_door/metal/store,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"nsl" = (
+/obj/structure/sign/departments/showers,
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/crew_quarters/dorms)
 "nsz" = (
 /obj/machinery/telecomms/server/presets/service,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -2509,6 +2587,10 @@
 	icon_state = "verticalrightborderright3"
 	},
 /area)
+"oHg" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
 "oLR" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light/small{
@@ -2567,6 +2649,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"oXC" = (
+/obj/structure/toilet,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "paz" = (
 /obj/structure/sink/greyscale{
 	dir = 4;
@@ -2644,6 +2734,13 @@
 	},
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"prn" = (
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
+"pvY" = (
+/obj/structure/chalkboard,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "pxC" = (
 /obj/structure/sign/painting/library{
 	pixel_x = -32
@@ -2974,6 +3071,10 @@
 	icon_state = "verticalrightborderright2bottom"
 	},
 /area)
+"rTP" = (
+/obj/item/kirbyplants/bonsai,
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "rWC" = (
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
@@ -3059,6 +3160,13 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
+"srv" = (
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "srN" = (
 /obj/structure/sign/poster/contraband/pinup_funk{
 	pixel_y = 32
@@ -3095,6 +3203,10 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"sST" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "sTj" = (
 /obj/structure/table/abductor,
 /obj/machinery/microwave,
@@ -3187,6 +3299,12 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"tCj" = (
+/obj/structure/chair/comfy/purple{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
 "tCv" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -3211,6 +3329,10 @@
 "tFy" = (
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
+"tKj" = (
+/obj/structure/simple_door/interior,
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "tPi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -3243,6 +3365,13 @@
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"tUE" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "uie" = (
 /turf/open/floor/f13{
 	color = "#ffe9de";
@@ -3326,11 +3455,22 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"vne" = (
+/obj/structure/simple_door/wood/alt,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "voW" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
 /area/crew_quarters/bar)
+"vrP" = (
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "vsw" = (
 /obj/structure/table/wood/settler,
 /obj/item/melee/onehanded/slavewhip,
@@ -3541,6 +3681,13 @@
 /obj/structure/chair/stool/retro/tan,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"wup" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "wwk" = (
 /obj/machinery/vending/hydroseeds,
 /obj/machinery/light/small{
@@ -11821,17 +11968,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+pvY
+wup
+dyD
+njA
+dyD
+njA
+lII
+cgn
+tUE
+tCj
+prn
 cgn
 xGH
 xGH
@@ -11938,17 +12085,17 @@ fvH
 eYJ
 eYJ
 cgn
+lII
+lII
+dyD
+njA
+dyD
+njA
+lII
+fKH
 gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+oHg
+oHg
 cgn
 xGH
 xGH
@@ -12054,15 +12201,15 @@ erJ
 fvH
 eYJ
 eYJ
+fKH
+lII
+lII
+lII
+lII
+lII
+lII
+lII
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
 gHV
 gHV
 gHV
@@ -12172,15 +12319,15 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+pvY
+lII
+dyD
+njA
+dyD
+njA
+lII
+cgn
+dua
 gHV
 gHV
 cgn
@@ -12289,15 +12436,15 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+lII
+dyD
+njA
+dyD
+njA
+lII
+cgn
+kpC
 gHV
 gHV
 cgn
@@ -12406,17 +12553,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+cgn
+cgn
+cgn
+cgn
+cgn
+hwS
+vne
+cgn
+cgn
+fNJ
+cgn
 cgn
 xGH
 xGH
@@ -12523,17 +12670,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
 aEB
 xGH
 xGH
@@ -12640,17 +12787,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
+lII
 aEB
 xGH
 xGH
@@ -12757,17 +12904,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+lII
+lII
+lII
+lII
+vrP
+lII
+lII
+lII
+lII
+lII
 aEB
 xGH
 xGH
@@ -12874,17 +13021,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+vne
+cgn
+cgn
+fNJ
+cgn
 cgn
 xGH
 xGH
@@ -12991,15 +13138,15 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+pvY
+lII
+dyD
+njA
+dyD
+njA
+lII
+cgn
+rTP
 gHV
 gHV
 cgn
@@ -13108,15 +13255,15 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+lII
+dyD
+njA
+dyD
+njA
+lII
+cgn
+dua
 gHV
 gHV
 cgn
@@ -13224,15 +13371,15 @@ erJ
 fvH
 eYJ
 eYJ
+fKH
+lII
+lII
+lII
+lII
+lII
+lII
+lII
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
 gHV
 gHV
 gHV
@@ -13342,17 +13489,17 @@ fvH
 eYJ
 eYJ
 cgn
+pvY
+lII
+dyD
+njA
+dyD
+njA
+lII
+fKH
 gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+sST
+sST
 cgn
 xGH
 xGH
@@ -13459,17 +13606,17 @@ fvH
 eYJ
 eYJ
 cgn
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
-gHV
+lII
+vrP
+dyD
+njA
+dyD
+njA
+lII
+cgn
+miJ
+myY
+ngO
 cgn
 xGH
 xGH
@@ -14161,17 +14308,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+oXC
+tKj
+dfn
+tdg
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
 tdg
 xGH
 xGH
@@ -14278,17 +14425,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+tdg
+tdg
+dfn
+tKj
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
 eBd
 xGH
 xGH
@@ -14395,17 +14542,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+ezw
+dfn
+dfn
+nsl
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
+dfn
 eBd
 xGH
 xGH
@@ -14512,17 +14659,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+mnX
+dfn
+srv
+tdg
+dfn
+dfn
+dfn
+srv
+dfn
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -14629,17 +14776,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
 tdg
 eYJ
 eYJ
@@ -14746,17 +14893,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -14864,15 +15011,15 @@ eYJ
 eYJ
 tdg
 jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+tKj
+dfn
+dfn
+dfn
+tKj
+dfn
+dfn
 jUQ
 tdg
 eYJ
@@ -14980,17 +15127,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+srv
+tdg
+dfn
+dfn
+dfn
+tdg
+srv
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -15097,17 +15244,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
 tdg
 eYJ
 eYJ
@@ -15214,17 +15361,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -15332,15 +15479,15 @@ eYJ
 eYJ
 tdg
 jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+tKj
+dfn
+dfn
+dfn
+tKj
+dfn
+dfn
 jUQ
 tdg
 eYJ
@@ -15448,17 +15595,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+srv
+tdg
+dfn
+dfn
+dfn
+tdg
+srv
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -15565,17 +15712,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
 tdg
 eYJ
 eYJ
@@ -15683,15 +15830,15 @@ eYJ
 eYJ
 tdg
 jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
 jUQ
 tdg
 eYJ
@@ -15799,17 +15946,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -15916,17 +16063,17 @@ fvH
 eYJ
 eYJ
 tdg
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+dfn
+dfn
+tKj
+dfn
+dfn
+dfn
+tKj
+dfn
+dfn
+dfn
 tdg
 eYJ
 eYJ
@@ -16034,15 +16181,15 @@ eYJ
 eYJ
 tdg
 jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
-jUQ
+dfn
+srv
+tdg
+dfn
+dfn
+dfn
+tdg
+srv
+dfn
 jUQ
 tdg
 eYJ
