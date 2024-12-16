@@ -1,0 +1,114 @@
+<!-- 
+	this will be the html for the furry dating sim style message block
+	Its mainly to convert boring old text into something more fun and ~interactive~
+
+	The entire message block will be laid out in two chunks stacked on top of each other
+
+	The top chunk will be the FurryHead
+		FurryHead will have a fixed height of 80px, and will stretch the full width of the browser window
+		FurryHead will have a cool gradient background with a border
+		- the top chunk will have:
+			- the character's profile picture, aligned to the left
+				- The profile picture will be a slightly rounded square, with a colorized, stylized border
+				- The profile picture will have a fixed size of 75px by 75px
+			- a button panel, aligned to the center of the remaining space
+				- The button panel will have:
+					- the character's name at the top
+					- a grid of four buttons
+						- top left: "Profile"
+						- top right: "DM"
+						- bottom left: "Flirt"
+						- bottom right: "Yiff"
+			The profile picture and button panel will be next to each other, on the same line
+				This will be done with a flexbox
+			The button panel must fit within the FurryHead, both vertically and horizontally
+	
+	The bottom chunk will be the FurryBody
+		FurryBody will have a fixed height of 200px, and will stretch the full width of the browser window
+		FurryBody will have a cool gradient background with a border
+		- the bottom chunk will have:
+			- The name and action line
+				- It'll look something like: "Foxxxy Vixen asks,"
+					- Foxxxy Vixen will be the character's name, and will be bolded
+					- "asks," will be the action line, and will be italicized
+				- It'll be at the top of the chunk, aligned to the left
+			- The message text
+				- Will wrap if it's too long
+				- Will be aligned to the left
+				- Will have some padding on the left and right
+	
+	All blocks will have as little padding and margin as possible, with a goal of compactness
+		This is because the browser window is actually narrow and tall, and we want to fit as much as possible on the screen
+	Everything will be contained in a parent div that defines the width, and holds everything in place
+	All styling will be done inlined, because the system that will use this doesn't support external stylesheets
+
+-->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Furry Dating Sim Message Block</title>
+</head>
+<body>
+				<div style="width: 100%; background: linear-gradient(0deg, #FFC0CB, #FF1493); border: 2px solid #FF69B4; display: flex;">
+					<div style="height: 75px; width: 75px; background: #FFC0CB; border: 2px solid #FF1493; border-radius: 10px; margin: 2px;">
+						<img src="https://via.placeholder.com/75" style="height: 75px; width: 75px; border-radius: 10px;">
+					</div>
+					<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+						<span style="font-weight: bold; color:darkmagenta;">Foxxxy Vixen</span>
+						<div style="display: grid; grid-template-areas: 'profile dm' 'flirt yiff'; grid-gap: 2px;">
+							<button style="grid-area: profile; background: #FFC0CB; border: 2px solid #FF1493;">Profile</button>
+							<button style="grid-area: dm; background: #FFC0CB; border: 2px solid #FF1493;">DM</button>
+							<button style="grid-area: flirt; background: #FFC0CB; border: 2px solid #FF1493;">Flirt</button>
+							<button style="grid-area: yiff; background: #FFC0CB; border: 2px solid #FF1493;">Yiff</button>
+						</div>
+					</div>
+				</div>
+				<div style="width: 100%; background: linear-gradient(0deg, #FFC0CB, #FF1493); border: 2px solid #FF69B4; padding: 2px;">
+					<p style="font-weight: bold; margin: 0; color:darkmagenta;">Foxxxy Vixen <span style="font-style: italic;">asks,</span></p>
+					<p style="margin: 0; color: darkmagenta;">Hey there! How's it going? I was thinking we could go on a date sometime. What do you say?</p>
+				</div>
+</body> -->
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<!-- <div style='width: 100%; border: 2px solid #000000'><div style='width: 100%; background: linear-gradient(0deg, #333333, #111111); border: 2px solid #000000; display: flex;'><div style='height: 75px; width: 75px; background: #333333; border: 0px solid #000000; border-radius: 10px; margin: 2px;'><img src='https://files.catbox.moe/4m71t6.jpg' style='height: 75px; width: 75px; border-radius: 10px;'></div><div style='flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;'><span style='font-weight: bold;'>Ward Buttersworth</span><div style='display: grid; grid-template-areas: "profile dm" "flirt yiff"; grid-gap: 2px;'><button style='grid-area: profile; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];CHARDIR=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Profile</a></button><button style='grid-area: dm; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];DM=1;reciever_quid=superlagg;sender_quid=superlagg'>DM</a></button><button style='grid-area: flirt; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];FLIRT=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Flirt</a></button><button style='grid-area: yiff; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];INTERACT=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Interact</a></button></div></div></div><div style='width: 100%; background: linear-gradient(0deg, #333333, #111111); border: 2px solid #000000; padding: 2px;'><p style='font-weight: bold; margin: 0;'>Ward Buttersworth <span style='font-style: italic; color: #dd;'>says, </span></p><p style='margin: 0; color: #dd;'>Dup.</p></div></div> -->
+<!-- The above, but expanded for readability -->
+<div style='width: 100%; border: 2px solid #000000'>
+	<div style='width: 100%; background: linear-gradient(0deg, #333333, #111111); border: 2px solid #000000; display: flex;'>
+		<div style='height: 75px; width: 75px; background: #333333; border: 0px solid #000000; border-radius: 10px; margin: 2px;'>
+			<img src='https://files.catbox.moe/4m71t6.jpg' style='height: 75px; width: 75px; border-radius: 10px;'>
+		</div>
+		<!-- <div style='flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; overflow: wrap;'> -->
+			<!-- The above line, but made so that the content inside cannot stretch the container under any circumstances -->
+		<div style='text-align: center; width: calc(100% - 79px); max-width: calc(100% - 79px);'>
+			<span style='font-weight: bold;'>Ward Buttersworth the Cool Bunch Of Sourest Grapes Ever</span>
+				<table style='margin: 0 auto;'>
+					<tr>
+						<td style='width: 50%;'>
+							<button style='width: 100%; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];CHARDIR=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Profile</a></button>
+						</td>
+						<td style='width: 50%;'>
+							<button style='width: 100%; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];DM=1;reciever_quid=superlagg;sender_quid=superlagg'>DM</a></button>
+						</td>
+					</tr>
+					<tr>
+						<td style='width: 50%;'>
+							<button style='width: 100%; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];FLIRT=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Flirt</a></button>
+						</td>
+						<td style='width: 50%;'>
+							<button style='width: 100%; background: linear-gradient(0deg, #FFFFFF, #FFFFFF);border: 2px solid #000000;'><a href='?src=[0x21000073];INTERACT=1;reciever_quid=superlagg-numbering-crossly-5964-6337;sender_quid=superlagg'>Interact</a></button>
+						</td>
+					</tr>
+				</table>
+		</div>
+	</div>
+	<div style='width: 100%; background: linear-gradient(0deg, #333333, #111111); border: 2px solid #000000; padding: 2px;'>
+		<p style='font-weight: bold; margin: 0;'>Ward Buttersworth <span style='font-style: italic; color: #dddddd'>says, </span></p>
+		<p style='margin: 0; color: #dddddd;'>Dup.</p>
+	</div>
+</div>
+
+

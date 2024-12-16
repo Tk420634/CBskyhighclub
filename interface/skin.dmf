@@ -1,0 +1,285 @@
+macro "default"
+
+
+menu "menu"
+	elem 
+		name = "&File"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Quick screenshot\tF2"
+		command = ".screenshot auto"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Save screenshot as...\tShift+F2"
+		command = ".screenshot"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = ""
+		command = ""
+		category = "&File"
+		saved-params = "is-checked"
+	elem "reconnectbutton"
+		name = "&Reconnect"
+		command = ".reconnect"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Quit\tAlt-F4"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Help"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Admin Help\tF1"
+		command = "adminhelp"
+		category = "&Help"
+		saved-params = "is-checked"
+	elem 
+		name = "&Hotkeys"
+		command = "hotkeys-help"
+		category = "&Help"
+		saved-params = "is-checked"
+
+
+window "mainwindow"
+	elem "mainwindow"
+		type = MAIN
+		pos = 291,0
+		size = 640x440
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Foxybar"
+		macro = "default"
+		menu = "menu"
+		outer-size = 656x518
+		outer-pos = 291,0
+		inner-size = 640x440
+		inner-pos = 8,51
+		screen-size = 2560x1392
+	elem "split"
+		type = CHILD
+		pos = 3,0
+		size = 637x440
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = none
+		saved-params = "splitter"
+		left = "mapwindow"
+		right = "infowindow"
+		is-vert = true
+	elem "asset_cache_browser"
+		type = BROWSER
+		pos = 0,0
+		size = 200x200
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = ""
+	elem "tooltip"
+		type = BROWSER
+		pos = 0,0
+		size = 999x999
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = ""
+
+window "mapwindow"
+	elem "mapwindow"
+		type = MAIN
+		pos = 291,0
+		size = 1024x1024
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+		outer-size = 1040x1082
+		outer-pos = 291,0
+		inner-size = 1024x1024
+		inner-pos = 8,31
+		screen-size = 2560x1392
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 1024x1024
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Arial"
+		font-size = 7
+		is-default = true
+		saved-params = "zoom;letterbox;zoom-mode"
+		style = ".center { text-align: center; } .maptext { font-family: 'Small Fonts'; font-size: 7px; -dm-text-outline: 1px black; color: white; line-height: 1.1; } .command_headset { font-weight: bold;\tfont-size: 8px; } .small { font-size: 6px; } .big { font-size: 8px; } .reallybig { font-size: 8px; } .extremelybig { font-size: 8px; } .greentext { color: #00FF00; font-size: 7px; } .redtext { color: #FF0000; font-size: 7px; } .clown { color: #FF69Bf; font-size: 7px;  font-weight: bold; } .his_grace { color: #15D512; } .hypnophrase { color: #0d0d0d; font-weight: bold; } .yell { font-weight: bold; } .italics { font-size: 6px; }"
+
+window "infowindow"
+	elem "infowindow"
+		type = MAIN
+		pos = 291,0
+		size = 640x480
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+		image = 'C:\\Users\\tk420\\Pictures\\1712666654961543.jpg'
+		outer-size = 656x538
+		outer-pos = 291,0
+		inner-pos = 8,31
+		screen-size = 2560x1392
+	elem "info"
+		type = CHILD
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = none
+		saved-params = "splitter"
+		left = "statwindow"
+		right = "outputwindow"
+		is-vert = false
+
+window "outputwindow"
+	elem "outputwindow"
+		type = MAIN
+		pos = 291,0
+		size = 640x481
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+		outer-size = 656x539
+		outer-pos = 291,0
+		inner-size = 640x481
+		inner-pos = 8,31
+		screen-size = 2560x1392
+	elem "input"
+		type = INPUT
+		pos = 2,461
+		size = 595x20
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-style = "bold"
+		is-default = true
+		border = sunken
+		saved-params = "command"
+	elem "saybutton"
+		type = BUTTON
+		pos = 600,461
+		size = 37x20
+		anchor1 = 100,100
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = "Chat"
+		command = ".winset \"saybutton.is-checked=true ? input.command=\"!say \\\"\" : input.command=\""
+		is-flat = true
+		button-type = pushbox
+	elem "browseroutput"
+		type = BROWSER
+		pos = 0,0
+		size = 640x457
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #ffffff
+		is-visible = false
+		is-disabled = true
+		saved-params = ""
+	elem "output"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x457
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = ""
+
+window "popupwindow"
+	elem "popupwindow"
+		type = MAIN
+		pos = 291,0
+		size = 549x549
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-resize = false
+		outer-size = 565x588
+		outer-pos = 291,0
+		inner-size = 549x549
+		inner-pos = 8,31
+		screen-size = 2560x1392
+
+window "preferences_window"
+	elem "preferences_window"
+		type = MAIN
+		pos = 291,0
+		size = 1280x1001
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-maximized;focus"
+		statusbar = false
+		image = 'C:\\Users\\tk420\\Pictures\\1712666654961543.jpg'
+		outer-size = 1296x1040
+		outer-pos = 291,0
+		inner-size = 1280x1001
+		inner-pos = 8,31
+		screen-size = 2560x1392
+	elem "preferences_browser"
+		type = BROWSER
+		pos = 0,0
+		size = 864x1000
+		anchor1 = 0,0
+		anchor2 = 75,100
+		background-color = none
+		saved-params = ""
+	elem "character_preview_map"
+		type = MAP
+		pos = 864,0
+		size = 419x1001
+		anchor1 = 75,0
+		anchor2 = 100,100
+		right-click = true
+		saved-params = "zoom;letterbox;zoom-mode"
+
+window "statwindow"
+	elem "statwindow"
+		type = MAIN
+		pos = 291,0
+		size = 1308x954
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+		image = 'C:\\Users\\tk420\\Pictures\\1712666654961543.jpg'
+		outer-size = 1324x1012
+		outer-pos = 291,0
+		inner-size = 1308x954
+		inner-pos = 8,31
+		screen-size = 2560x1392
+	elem "statbrowser"
+		type = BROWSER
+		pos = 0,0
+		size = 1318x959
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = none
+		is-visible = false
+		saved-params = ""
+

@@ -1,0 +1,46 @@
+{
+	"map_name": "Foxy Bar",
+	"map_path": "map_files/coyote_bayou",
+	"map_file": [
+		"foxybar.dmm",
+		"foxybarupper.dmm"
+	],
+	"station_ruin_budget":0,
+	"space_ruin_levels":0,
+	"space_empty_levels":0,
+	"shuttles": {
+		"cargo":"cargo_pahrump",
+		"emergency": "emergency_pahrump",
+		"ferry": "ferry_fancy"
+	},
+	"traits":[
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Dungeons": true,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Foxy",
+			"Force X": 1,
+			"Force Y": 1,
+			"Force Z": 0
+		},
+
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Station": 1,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Upper Foxy",
+			"Force X": 1,
+			"Force Y": 1,
+			"Force Z": 1
+		}
+	],
+	"minetype": "none"
+}

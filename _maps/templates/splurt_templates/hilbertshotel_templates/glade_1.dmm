@@ -1,0 +1,721 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/turf/closed/indestructible/f13/matrix,
+/area/hilbertshotel)
+"b" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"c" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"e" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"g" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"j" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"k" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"l" = (
+/obj/structure/flora/chomp/bush5{
+	color = "#444444";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"n" = (
+/obj/structure/flora/wasteplant/wild_coyote,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"o" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/closed/indestructible/f13/matrix,
+/area/hilbertshotel)
+"q" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"r" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#555555";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"s" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"t" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"v" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"x" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"z" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"B" = (
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"D" = (
+/turf/closed/indestructible/f13/matrix,
+/area/hilbertshotel)
+"E" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"F" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/wasteplant/fever_blossom,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"G" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"H" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"I" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"K" = (
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"M" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"O" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"P" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/rug/big/rug_red,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"Q" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/tree/jungle/small,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"R" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	color = "#666666"
+	},
+/area/hilbertshotel)
+"S" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"T" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/turf/closed/indestructible/f13/matrix,
+/area/hilbertshotel)
+"U" = (
+/turf/closed/indestructible/hoteldoor{
+	icon_state = "door_closed";
+	icon = 'icons/obj/doors/puzzledoor/default.dmi'
+	},
+/area/hilbertshotel)
+"V" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"W" = (
+/obj/structure/flora/wasteplant/fever_blossom,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"X" = (
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"Y" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	color = "#997950"
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#888888";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+"Z" = (
+/obj/structure/flora/grass/wasteland{
+	color = "#33BB33";
+	icon_state = "tall_grass_3"
+	},
+/obj/structure/flora/tree/jungle{
+	color = "#BEBEBE";
+	mouse_opacity = 0
+	},
+/turf/open/indestructible/ground/outside/civ/grass3{
+	barefootstep = "grass";
+	clawfootstep = "grass";
+	color = "#777777";
+	footstep = "grass"
+	},
+/area/hilbertshotel)
+
+(1,1,1) = {"
+T
+D
+D
+D
+D
+o
+o
+U
+D
+D
+D
+D
+a
+a
+D
+D
+"}
+(2,1,1) = {"
+D
+r
+r
+r
+r
+r
+l
+K
+K
+K
+E
+E
+E
+E
+R
+D
+"}
+(3,1,1) = {"
+T
+c
+K
+E
+E
+K
+K
+j
+K
+O
+K
+K
+E
+K
+R
+D
+"}
+(4,1,1) = {"
+D
+e
+e
+e
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+R
+D
+"}
+(5,1,1) = {"
+D
+X
+e
+W
+K
+K
+S
+K
+K
+j
+K
+K
+n
+K
+R
+D
+"}
+(6,1,1) = {"
+D
+X
+z
+z
+K
+K
+K
+S
+S
+g
+K
+K
+K
+K
+E
+D
+"}
+(7,1,1) = {"
+T
+e
+b
+z
+S
+K
+K
+P
+K
+S
+S
+S
+S
+V
+E
+D
+"}
+(8,1,1) = {"
+D
+e
+B
+B
+K
+S
+K
+I
+K
+G
+K
+K
+S
+t
+k
+D
+"}
+(9,1,1) = {"
+D
+e
+B
+x
+Q
+K
+I
+S
+K
+K
+K
+K
+I
+K
+k
+D
+"}
+(10,1,1) = {"
+D
+e
+x
+x
+K
+K
+I
+K
+S
+S
+O
+I
+I
+K
+k
+D
+"}
+(11,1,1) = {"
+a
+s
+F
+B
+K
+I
+j
+K
+K
+S
+t
+K
+K
+K
+k
+D
+"}
+(12,1,1) = {"
+a
+q
+e
+B
+Y
+S
+K
+g
+K
+K
+S
+S
+K
+E
+v
+D
+"}
+(13,1,1) = {"
+T
+Z
+Z
+z
+K
+S
+S
+K
+K
+K
+K
+K
+S
+k
+E
+D
+"}
+(14,1,1) = {"
+D
+e
+B
+M
+K
+K
+S
+S
+I
+K
+K
+j
+E
+k
+H
+T
+"}
+(15,1,1) = {"
+D
+e
+e
+e
+E
+E
+E
+E
+H
+k
+E
+E
+c
+E
+t
+a
+"}
+(16,1,1) = {"
+D
+D
+T
+D
+D
+D
+D
+D
+D
+a
+a
+D
+D
+D
+T
+a
+"}
