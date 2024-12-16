@@ -7,10 +7,6 @@
 	color = "#845f58";
 	dir = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/simple_door/room{
 	name = "dare dice room"
 	},
@@ -27,16 +23,18 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"afw" = (
+/obj/effect/landmark/latejoin,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area)
 "agk" = (
 /obj/structure/table/wood/settler,
 /obj/item/toy/crayon/spraycan,
 /obj/item/toy/crayon/spraycan,
 /obj/item/storage/crayons,
 /obj/item/storage/crayons,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#3B2B1A"
@@ -56,10 +54,6 @@
 	},
 /obj/item/soap{
 	pixel_x = -4
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
@@ -96,10 +90,6 @@
 	pixel_y = 15;
 	pixel_x = -16
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/item/storage/box/drinkingglasses{
 	pixel_y = 6;
 	pixel_x = -9
@@ -119,14 +109,15 @@
 /obj/effect/sound_emitter/foxybar/machinery,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"anF" = (
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "aoR" = (
 /obj/structure/simple_door/room,
 /obj/item/lock_bolt{
 	dir = 8
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -158,10 +149,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
@@ -174,10 +161,6 @@
 "aBY" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/sound_emitter/foxybar/windycurtains,
 /obj/structure/simple_door/room{
@@ -192,10 +175,6 @@
 /area/f13/fb/bar)
 "aDr" = (
 /obj/structure/easel,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#3B2B1A"
@@ -210,9 +189,6 @@
 	pixel_x = 6;
 	pixel_y = 10;
 	density = 0;
-	plane = -2
-	},
-/obj/effect/overlay/fog/fog2{
 	plane = -2
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -231,22 +207,20 @@
 	dir = 2;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"aLX" = (
+/obj/hilbertshotel,
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "aNE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -264,10 +238,6 @@
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311";
 	layer = 3
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
@@ -289,10 +259,6 @@
 /obj/structure/window/bronze{
 	plane = -2;
 	pixel_y = -4
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -328,10 +294,6 @@
 	dir = 4;
 	color = "pink"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -347,9 +309,6 @@
 	pixel_x = -42;
 	dir = 2;
 	pixel_y = -7;
-	plane = -2
-	},
-/obj/effect/overlay/fog/fog2{
 	plane = -2
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -371,10 +330,6 @@
 	pixel_x = -7
 	},
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "brw" = (
@@ -391,10 +346,6 @@
 	},
 /obj/structure/stairs/west{
 	color = "#A47449"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
@@ -421,29 +372,14 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "bAd" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8;
-	color = "#3B2B1A"
+/obj/effect/landmark/start/f13/barkeep,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft2top"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#3B2B1A"
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
+/area)
 "bIX" = (
 /obj/structure/table/abductor{
 	density = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -452,18 +388,14 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "bNh" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1;
-	color = "#3B2B1A"
+/obj/structure/closet/crate/bin,
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
 	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
+/area/f13/wasteland)
 "bNC" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
@@ -477,19 +409,11 @@
 	color = "#3B2B1A"
 	},
 /obj/machinery/vending/boozeomat,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "bPG" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/turf/closed/wall/mineral/brick,
-/area/f13/fb/bar)
+/turf/closed/wall/f13/wood/house,
+/area/f13/wasteland)
 "bUG" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
@@ -504,40 +428,32 @@
 	color = "#A47449";
 	plane = -7
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "bXW" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/effect/landmark/start/f13/wastelander/clubworker,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/city/newboston/outdoors)
+"bZr" = (
+/turf/open/indestructible/ground/outside/road,
+/area)
 "cgn" = (
-/obj/item/toy/tennis/blue{
-	density = 1;
-	mouse_opacity = 0;
-	alpha = 0;
-	anchored = 1
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
+/area/f13/wasteland)
+"ciH" = (
+/obj/structure/decoration/hatch{
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999";
 	icon_state = "horizontaltopborderbottom0"
 	},
-/area/f13/wasteland/city/newboston/outdoors)
+/area)
 "cuN" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop2"
 	},
@@ -548,30 +464,19 @@
 	pixel_y = 12;
 	pixel_x = 12
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerborder - S"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"cyl" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - E"
+	},
+/area/f13/wasteland)
 "cDo" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8;
-	color = "#3B2B1A"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/f13/wood/house,
+/area/f13/wasteland)
 "cFj" = (
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
@@ -581,35 +486,37 @@
 	dir = 1;
 	pixel_y = 8
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"cFR" = (
+/obj/structure/table,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "cIc" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"cJb" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/common,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "cKA" = (
 /obj/structure/chair/stool,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -625,10 +532,6 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/chair/stool,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "cSI" = (
@@ -640,17 +543,10 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/chair/stool/retro/tan,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "cTW" = (
 /obj/effect/decal/marking,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/item/toy/tennis/blue{
 	density = 1;
 	mouse_opacity = 0;
@@ -663,10 +559,6 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "cVe" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/sound_emitter/foxybar/clock,
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
@@ -677,10 +569,6 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "cYv" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
@@ -698,10 +586,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "dfJ" = (
@@ -711,9 +595,6 @@
 	dir = 1;
 	alpha = 0;
 	mouse_opacity = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
 	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
@@ -745,10 +626,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4;
 	color = "#3B2B1A"
@@ -759,28 +636,41 @@
 /obj/structure/chair/folding{
 	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
 	name = "dirty floor"
 	},
 /area/f13/fb/bar)
+"dkx" = (
+/obj/effect/landmark/start/f13/wastelander,
+/obj/machinery/light/lampost{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - S"
+	},
+/area)
+"dlO" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop2"
+	},
+/area)
 "dpG" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"dxX" = (
+/obj/effect/landmark/start/f13/wastelander,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft2"
+	},
+/area)
 "dAC" = (
 /obj/structure/chair/stool,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#3B2B1A"
@@ -806,10 +696,6 @@
 	light_range = 2;
 	pixel_y = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/window/bronze{
 	plane = -2;
 	pixel_y = -4
@@ -824,19 +710,11 @@
 	color = "#c40e0e";
 	open = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "dGX" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/structure/bed/dogbed,
 /turf/open/floor/wood_fancy{
@@ -845,10 +723,6 @@
 /area/f13/fb/bar)
 "dLD" = (
 /obj/structure/sign/flag_arkansas,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
 "dNW" = (
@@ -863,10 +737,6 @@
 /obj/structure/window/bronze{
 	plane = -2;
 	pixel_y = -4
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -884,10 +754,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -904,10 +770,6 @@
 	dir = 1;
 	pixel_y = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -917,9 +779,6 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "dUG" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright3"
 	},
@@ -927,10 +786,6 @@
 "dYw" = (
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -960,9 +815,6 @@
 /area/f13/fb/bar)
 "ecT" = (
 /obj/effect/landmark/start/f13/wastelander,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland/city/newboston/outdoors)
 "edI" = (
@@ -1063,10 +915,6 @@
 /obj/item/reagent_containers/food/condiment/ketchup{
 	pixel_x = 10
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "edK" = (
@@ -1075,13 +923,15 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"erJ" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/f13/wasteland)
 "esa" = (
 /obj/machinery/gear_painter{
 	pixel_y = 13;
 	plane = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = 1
 	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
@@ -1093,10 +943,6 @@
 "euX" = (
 /obj/structure/sign/painting/library{
 	pixel_x = -32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/structure/chair/stool,
 /obj/effect/turf_decal/siding/wood{
@@ -1114,6 +960,12 @@
 /obj/machinery/telecomms/bus/preset_one,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"eww" = (
+/obj/effect/landmark/latejoin,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright1"
+	},
+/area)
 "exD" = (
 /obj/machinery/light/floor{
 	light_color = "#993311";
@@ -1123,10 +975,6 @@
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311";
 	layer = 3
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
@@ -1145,70 +993,45 @@
 	dir = 1;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/chair/stool/retro/tan,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "eBd" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom2left"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "eEc" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#3B2B1A"
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
-"eEU" = (
-/obj/effect/turf_decal/stripes/asteroid/corner,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/wasteland/city/newboston/outdoors)
-"eJV" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
-/turf/closed/indestructible/f13/matrix,
-/area/f13/fb/bar)
-"ePQ" = (
-/obj/structure/simple_door/room,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/turf/open/floor/plasteel/freezer,
-/area/f13/fb/bar)
-"eYJ" = (
 /obj/item/toy/tennis/blue{
 	density = 1;
 	mouse_opacity = 0;
 	alpha = 0;
 	anchored = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
+/area)
+"eEU" = (
+/obj/effect/turf_decal/stripes/asteroid/corner,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
-"eYY" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
+"eJV" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/fb/bar)
+"ePQ" = (
+/obj/structure/simple_door/room,
+/turf/open/floor/plasteel/freezer,
+/area/f13/fb/bar)
+"eWi" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
 	},
+/area/f13/wasteland)
+"eYJ" = (
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"eYY" = (
 /obj/item/toy/tennis/blue{
 	density = 1;
 	mouse_opacity = 0;
@@ -1225,9 +1048,6 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
 "fdf" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop2right"
 	},
@@ -1243,22 +1063,37 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
 "ffM" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright2bottom"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"fgf" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop2right"
+	},
+/area)
+"fmK" = (
+/obj/effect/decal/marking,
+/obj/structure/wreck/bus/orange{
+	pixel_y = -4;
+	pixel_x = -3;
+	name = "bus from somewhere"
+	},
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "fqj" = (
 /obj/structure/window/bronze{
 	dir = 8;
 	mouse_opacity = 0;
 	opacity = 1
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1272,30 +1107,15 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "fvH" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
-/obj/effect/turf_decal/weather/splinefancy{
-	dir = 1;
-	color = "#59392b";
-	pixel_y = 0;
-	pixel_x = -1;
-	plane = -14
-	},
-/turf/open/floor/plasteel/f13/whitemarble{
-	color = "#333333"
-	},
-/area/f13/fb/bar)
+/area/f13/wasteland)
 "fxb" = (
 /obj/structure/table/wood/settler,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1304,10 +1124,6 @@
 "fzg" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/sound_emitter/foxybar/windycurtains,
 /obj/structure/simple_door/room{
@@ -1338,10 +1154,6 @@
 	pixel_x = 32
 	},
 /obj/machinery/chem_master/condimaster,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "fDb" = (
@@ -1367,19 +1179,15 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/musician/piano,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"fIE" = (
+/obj/structure/table/booth,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "fNI" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/table/abductor,
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
@@ -1398,9 +1206,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "fUR" = (
 /obj/effect/decal/marking,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
@@ -1421,10 +1226,6 @@
 	pixel_y = -2;
 	plane = -6
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1434,18 +1235,10 @@
 	light_power = 2;
 	pixel_y = 3
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
 "gec" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "ghq" = (
@@ -1460,24 +1253,24 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"gih" = (
+/obj/effect/decal/marking,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/f13/wastelander,
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "glE" = (
 /obj/effect/decal/cleanable/glitter/pink,
 /obj/structure/table/abductor,
 /obj/structure/curtain{
 	color = "#c40e0e";
 	open = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
@@ -1500,10 +1293,6 @@
 	light_range = 2;
 	pixel_y = 13
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1511,10 +1300,6 @@
 "gnx" = (
 /obj/structure/table/wood/settler,
 /obj/item/stack/sheet/mineral/wood/fifty,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
@@ -1524,12 +1309,15 @@
 /area/f13/fb/bar)
 "goB" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"gpH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/wasteland)
 "gyr" = (
 /obj/machinery/vending/cigarette{
 	density = 0;
@@ -1542,10 +1330,6 @@
 /obj/structure/sign/poster/contraband/have_a_puff{
 	pixel_y = 35
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/sound_emitter/foxybar/machinery,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1553,10 +1337,6 @@
 /area/f13/fb/bar)
 "gzb" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/machinery/light/small{
@@ -1571,20 +1351,28 @@
 /area/f13/fb/bar)
 "gzw" = (
 /obj/effect/decal/marking,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999";
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"gAK" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"gAN" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_y = 11
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "gBo" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
@@ -1596,10 +1384,6 @@
 "gCH" = (
 /obj/effect/decal/cleanable/glitter/pink,
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "gGC" = (
@@ -1623,10 +1407,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1636,21 +1416,18 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"gHV" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop1"
+	},
+/area)
 "gJF" = (
 /obj/structure/chair/folding{
 	dir = 8
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
@@ -1675,10 +1452,6 @@
 	color = "#993311";
 	alpha = 10
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
 	},
@@ -1696,10 +1469,6 @@
 /obj/item/seeds/ambrosia/gaia{
 	pixel_x = -5
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "hcd" = (
@@ -1709,10 +1478,6 @@
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1;
@@ -1735,10 +1500,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
@@ -1763,17 +1524,9 @@
 	pixel_x = 3;
 	anchored = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "hfS" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 2;
 	color = "#3B2B1A"
@@ -1785,9 +1538,6 @@
 /area/f13/fb/bar)
 "his" = (
 /obj/effect/landmark/latejoin,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
 	},
@@ -1811,6 +1561,17 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"hle" = (
+/obj/structure/toilet,
+/obj/item/clothing/under/pants/f13/ghoul,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/wasteland)
 "hnl" = (
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
@@ -1819,10 +1580,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
@@ -1833,10 +1590,6 @@
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -1857,10 +1610,6 @@
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "hqa" = (
@@ -1878,31 +1627,14 @@
 /obj/structure/window/bronze{
 	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "hrM" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -1;
-	alpha = 175
-	},
-/turf/closed/wall/mineral/brick{
-	plane = -1
-	},
-/area/f13/fb/bar)
+/turf/closed/indestructible/f13/matrix,
+/area/f13/wasteland)
 "hAy" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop2left"
 	},
@@ -1928,10 +1660,6 @@
 	dir = 2;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1953,10 +1681,6 @@
 	plane = -2;
 	pixel_y = -4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -1974,16 +1698,19 @@
 /obj/item/lock_bolt{
 	dir = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
 	name = "dirty floor"
 	},
 /area/f13/fb/bar)
+"hQl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "hSj" = (
 /obj/machinery/light/small{
 	color = "#993311";
@@ -1991,10 +1718,6 @@
 	light_power = 2;
 	light_range = 2;
 	pixel_y = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
@@ -2011,24 +1734,28 @@
 	anchored = 0;
 	name = "movable stripper pole"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "ihm" = (
 /obj/effect/sound_emitter/foxybar/airconditioner,
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
+"ihN" = (
+/obj/effect/decal/marking,
+/obj/vehicle/sealed/car/jeep_mesa{
+	pixel_x = 6;
+	pixel_y = 10;
+	density = 0;
+	plane = -2
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "iku" = (
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311";
 	layer = 3
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2043,10 +1770,6 @@
 	pixel_x = 12;
 	pixel_y = 6
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "imt" = (
@@ -2056,24 +1779,12 @@
 	},
 /obj/effect/decal/cleanable/glitter/pink,
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "iqW" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "irF" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/sound_emitter/foxybar/ceilingfan,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2083,9 +1794,6 @@
 /obj/effect/decal/marking,
 /obj/effect/landmark/latejoin,
 /obj/effect/landmark/start/f13/wastelander,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
@@ -2096,10 +1804,28 @@
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"ivL" = (
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"izf" = (
+/obj/structure/table,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/planks,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "iDj" = (
 /obj/machinery/telecomms/server/presets/legion,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"iIx" = (
+/obj/effect/turf_decal/trimline/white/line,
+/turf/open/indestructible/ground/outside/road,
+/area/f13/wasteland)
 "iJV" = (
 /obj/machinery/telecomms/processor/preset_two,
 /obj/machinery/light/floor{
@@ -2113,10 +1839,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "iKD" = (
 /obj/effect/landmark/observer_start,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -2124,9 +1846,6 @@
 "iMw" = (
 /obj/structure/decoration/hatch{
 	dir = 1
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
 	},
 /obj/item/toy/tennis/blue{
 	density = 1;
@@ -2160,10 +1879,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8;
 	color = "#3B2B1A"
@@ -2174,18 +1889,53 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
-"iYl" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"iPs" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
 	},
+/area/f13/wasteland)
+"iQv" = (
+/obj/effect/spawner/lootdrop/f13/common,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"iTr" = (
+/obj/structure/table/booth,
+/obj/effect/decal/cleanable/blood/old{
+	pixel_x = 12
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"iTT" = (
+/obj/structure/chair/booth{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"iWM" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area)
+"iYl" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
-"jmf" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"jiM" = (
+/obj/machinery/microwave/stove,
+/obj/machinery/light/small{
+	dir = 1;
+	pixel_x = -15
 	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"jmf" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
@@ -2214,12 +1964,16 @@
 "jnG" = (
 /obj/machinery/biogenerator,
 /obj/item/reagent_containers/glass/bucket/plastic,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
+"jqz" = (
+/obj/structure/window/fulltile/house,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"jIA" = (
+/obj/structure/simple_door/interior,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "jJY" = (
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311";
@@ -2233,12 +1987,19 @@
 	icon_state = "vault_level1";
 	pixel_y = 29
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
+"jOV" = (
+/obj/structure/table/booth,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"jPj" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/road,
+/area/f13/wasteland)
 "jPN" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -2255,27 +2016,16 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "jUQ" = (
 /obj/hilbertshotel,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "jYx" = (
 /obj/machinery/plantgenes,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/item/storage/box/disks_plantgene,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
@@ -2284,10 +2034,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2301,28 +2047,24 @@
 /obj/structure/chair/bench{
 	pixel_y = 12
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom3"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "kke" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
-/turf/closed/wall/mineral/brick,
-/area/f13/fb/bar)
+/turf/closed/indestructible/f13/matrix,
+/area)
 "klQ" = (
 /obj/effect/landmark/start/f13/wastelander,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"kme" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - W"
+	},
+/area)
 "krA" = (
 /obj/effect/decal/cleanable/glitter/white{
 	color = "#884444"
@@ -2333,17 +2075,9 @@
 	pixel_y = 8;
 	pixel_x = 2
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "kuK" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
@@ -2356,6 +2090,14 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"kye" = (
+/obj/structure/chair/booth{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "kFu" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 4
@@ -2371,10 +2113,6 @@
 	},
 /obj/effect/decal/cleanable/glitter/pink,
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "kMU" = (
@@ -2384,10 +2122,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2408,10 +2142,6 @@
 	},
 /obj/structure/sign/painting/library{
 	pixel_x = -32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2438,10 +2168,6 @@
 	dir = 1;
 	plane = -6
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -2455,10 +2181,6 @@
 	light_color = "#993311";
 	color = "#993311";
 	alpha = 10
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1;
@@ -2484,10 +2206,6 @@
 	light_range = 2;
 	pixel_y = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/window/bronze{
 	plane = -2;
 	pixel_y = -4
@@ -2499,10 +2217,6 @@
 "kWN" = (
 /obj/structure/table/wood/settler,
 /obj/item/chisel,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
@@ -2510,13 +2224,17 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"lat" = (
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"lbP" = (
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "lel" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2525,10 +2243,6 @@
 "lhy" = (
 /obj/structure/sign/poster/contraband/pinup_ride{
 	pixel_y = 32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -2550,10 +2264,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -2582,18 +2292,10 @@
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/condiment/sugar,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "lvh" = (
 /obj/structure/window/fulltile/civ/redsandstone_windownew_full,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "lyo" = (
@@ -2613,10 +2315,6 @@
 	dir = 1;
 	pixel_y = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -2626,19 +2324,24 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "lzG" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
-"lJE" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"lEF" = (
+/obj/effect/decal/marking,
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
 	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area)
+"lJE" = (
 /obj/effect/sound_emitter/foxybar/ceilingfan,
 /obj/structure/flora/tree/pine/xmas,
 /turf/open/floor/plasteel/f13/whitemarble{
@@ -2650,10 +2353,6 @@
 	color = "#c40e0e";
 	open = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
 "lXt" = (
@@ -2662,10 +2361,6 @@
 	dir = 4;
 	pixel_x = 2
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "maZ" = (
@@ -2673,15 +2368,9 @@
 	color = "#c40e0e"
 	},
 /obj/structure/window/fulltile/civ/redsandstone_windownew_full,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/floor/wood_common,
 /area/f13/fb/bar)
 "mdh" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
 	},
@@ -2714,10 +2403,6 @@
 	dir = 1;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4;
 	color = "#3B2B1A"
@@ -2725,10 +2410,6 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "msa" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1;
 	color = "#3B2B1A"
@@ -2755,10 +2436,6 @@
 	pixel_y = 13
 	},
 /obj/machinery/jukebox_online,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -2769,14 +2446,15 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"mAZ" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - N"
+	},
+/area/f13/wasteland)
 "mBj" = (
 /obj/structure/mirror{
 	pixel_y = 31
@@ -2786,22 +2464,47 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"mBX" = (
+/obj/structure/sign/crosswalk{
+	icon_state = "stop";
+	pixel_x = -8;
+	pixel_y = 4;
+	layer = 4
+	},
+/obj/structure/sign/crosswalk{
+	pixel_y = 11
+	},
+/obj/structure/sign/crosswalk{
+	pixel_x = 7;
+	pixel_y = 3;
+	icon = 'modular_coyote/icons/objects/street_signs.dmi';
+	icon_state = "street";
+	name = "Welcome to the Vixen Bar!";
+	desc = "6th of Vixen and 9th";
+	layer = 6
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - W"
+	},
+/area)
+"mDx" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - W"
+	},
+/area)
 "mGF" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"mIA" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
+	},
+/area)
 "mKq" = (
 /obj/structure/table/wood/settler,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
@@ -2809,18 +2512,17 @@
 	},
 /area/f13/fb/bar)
 "mLV" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
-"mRP" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"mPH" = (
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
 	},
+/area)
+"mRP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#3B2B1A"
@@ -2859,23 +2561,29 @@
 /obj/machinery/telecomms/receiver/preset_right,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
-"nbY" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
+"mZm" = (
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
 	},
+/area)
+"nbY" = (
 /obj/effect/landmark/start/f13/barkeep,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2top"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "neR" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright2"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"ngg" = (
+/obj/effect/landmark/start/f13/wastelander,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area)
 "niY" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
@@ -2895,14 +2603,15 @@
 	color = "#A47449";
 	plane = -7
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"nmP" = (
+/obj/structure/simple_door/metal/store,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "nsz" = (
 /obj/machinery/telecomms/server/presets/service,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -2928,10 +2637,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1;
 	color = "#3B2B1A"
@@ -2942,12 +2647,30 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"nFc" = (
+/obj/structure/table,
+/obj/item/stack/f13Cash/random/low,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"nJj" = (
+/obj/effect/decal/marking,
+/obj/effect/landmark/start/f13/wastelander,
+/obj/effect/landmark/latejoin,
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
+"nOQ" = (
+/obj/structure/sign/cafesign,
+/obj/effect/landmark/start/f13/barkeep,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - S"
+	},
+/area)
 "nPu" = (
 /obj/machinery/processor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "nVa" = (
@@ -2955,14 +2678,19 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "nXE" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -1;
-	alpha = 175
-	},
 /turf/closed/wall/mineral/brick{
 	plane = -1
 	},
 /area/f13/fb/bar)
+"nZe" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"nZO" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright2"
+	},
+/area)
 "oaA" = (
 /obj/machinery/light/small{
 	color = "#993311";
@@ -2975,10 +2703,6 @@
 /obj/item/kirbyplants/random{
 	pixel_x = -1;
 	pixel_y = 10
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
@@ -2993,10 +2717,6 @@
 	light_color = "#993311";
 	color = "#993311";
 	alpha = 10
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1;
@@ -3013,10 +2733,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -3035,31 +2751,25 @@
 /obj/structure/window/bronze{
 	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "orZ" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
 	},
 /area/f13/fb/bar)
 "ouY" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright1"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"oEK" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright3"
+	},
+/area)
 "oLR" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light/small{
@@ -3070,22 +2780,21 @@
 	light_range = 2;
 	pixel_y = 13
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"oMh" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/snacks/burger,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "oNR" = (
 /obj/structure/table/abductor,
 /obj/item/kitchen/rollingpin,
 /obj/item/kitchen/knife/butcher,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "oOK" = (
@@ -3111,26 +2820,20 @@
 	pixel_y = 6;
 	pixel_x = -12
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "oQi" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop1"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"oRE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "oTE" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/item/toy/tennis/blue{
 	density = 1;
 	mouse_opacity = 0;
@@ -3149,10 +2852,6 @@
 	pixel_x = 12
 	},
 /obj/structure/mopbucket,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
@@ -3179,14 +2878,16 @@
 	pixel_y = 28;
 	pixel_x = -8
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"pck" = (
+/obj/structure/closet/fridge,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "pgU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -3203,14 +2904,29 @@
 	dir = 1;
 	pixel_y = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"pgV" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
+"pjD" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - S"
+	},
+/area/f13/wasteland)
+"plR" = (
+/obj/structure/chair/booth{
+	dir = 8
+	},
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "pxC" = (
 /obj/structure/sign/painting/library{
 	pixel_x = -32
@@ -3242,10 +2958,6 @@
 	light_range = 2;
 	pixel_y = 13
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3270,9 +2982,6 @@
 	light_color = "#FF0000";
 	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
 	},
@@ -3283,10 +2992,6 @@
 "pNr" = (
 /obj/item/storage/box/dice,
 /obj/structure/table/wood/settler,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3299,10 +3004,6 @@
 	pixel_x = -1;
 	plane = -14
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
 	},
@@ -3313,10 +3014,6 @@
 	},
 /obj/item/lock_bolt{
 	dir = 4
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
@@ -3340,15 +3037,16 @@
 /obj/structure/decoration/clock/active{
 	pixel_y = 25
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/closet/crate/bin/trashbin,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"qbQ" = (
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "qdx" = (
 /obj/machinery/light/small{
 	color = "#993311";
@@ -3365,10 +3063,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3379,9 +3073,6 @@
 	plane = 0;
 	density = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = 1
-	},
 /obj/effect/sound_emitter/foxybar/machinery,
 /obj/structure/christmas/xmaslights{
 	dir = 1
@@ -3391,10 +3082,6 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "qlV" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/machinery/light/floor{
 	light_color = "#993311";
 	color = "#993311";
@@ -3406,9 +3093,6 @@
 /obj/effect/decal/marking,
 /obj/effect/landmark/start/f13/wastelander,
 /obj/effect/landmark/latejoin,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
@@ -3424,10 +3108,6 @@
 	light_power = 2;
 	light_range = 2;
 	pixel_y = 13
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
@@ -3450,10 +3130,6 @@
 	},
 /obj/structure/sign/painting/library{
 	pixel_x = -32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -3494,10 +3170,6 @@
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "qLB" = (
@@ -3509,12 +3181,20 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
+"qRY" = (
+/obj/effect/decal/marking,
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "qSj" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 4
@@ -3523,6 +3203,14 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"qXA" = (
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/wasteland)
 "qZW" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 10
@@ -3530,9 +3218,6 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "raB" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
 	},
@@ -3549,10 +3234,6 @@
 /obj/structure/curtain{
 	color = "#c40e0e"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/sound_emitter/foxybar/windycurtains,
 /obj/structure/simple_door/room{
 	name = "booth two"
@@ -3568,13 +3249,13 @@
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"rsD" = (
+/obj/effect/landmark/start/f13/wastelander/clubworker,
+/turf/open/indestructible/ground/outside/sidewalk,
+/area)
 "ryu" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/sound_emitter/foxybar/windycurtains,
 /obj/structure/simple_door/room{
@@ -3591,9 +3272,6 @@
 /obj/structure/sign/poster/contraband/pinup_ride{
 	pixel_y = 32
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/christmas/xmaslights{
 	dir = 1
 	},
@@ -3608,13 +3286,37 @@
 /obj/machinery/telecomms/receiver/preset_left,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
-"rWC" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"rHO" = (
+/obj/structure/decoration/hatch{
+	dir = 1
 	},
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area)
+"rNt" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright2bottom"
+	},
+/area)
+"rWC" = (
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
+"rXS" = (
+/obj/effect/decal/remains/human,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "san" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -3627,28 +3329,21 @@
 	color = "#993311";
 	layer = 3
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"saY" = (
+/obj/structure/table,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "sbf" = (
 /obj/item/reagent_containers/glass/bucket/wateringcan,
 /obj/item/cultivator,
 /obj/item/shovel/spade,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "sbi" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/closed/indestructible/f13/matrix,
 /area/f13/wasteland/city/newboston/outdoors)
 "sdG" = (
@@ -3671,10 +3366,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "sel" = (
@@ -3686,10 +3377,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "seF" = (
@@ -3697,19 +3384,20 @@
 	pixel_x = -32;
 	density = 0
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
+"srr" = (
+/obj/machinery/light/lampost{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop2right"
+	},
+/area)
 "srN" = (
 /obj/structure/sign/poster/contraband/pinup_funk{
 	pixel_y = 32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -3725,9 +3413,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "sCW" = (
 /obj/effect/landmark/latejoin,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright0"
 	},
@@ -3755,10 +3440,6 @@
 "sTj" = (
 /obj/structure/table/abductor,
 /obj/machinery/microwave,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "sXl" = (
@@ -3767,18 +3448,11 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "tdg" = (
 /obj/structure/sign/cafesign,
 /obj/effect/landmark/start/f13/barkeep,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - S"
 	},
@@ -3786,10 +3460,6 @@
 "thm" = (
 /obj/structure/sign/poster/contraband/pinup_couch{
 	pixel_y = 32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -3800,43 +3470,14 @@
 	},
 /area/f13/fb/bar)
 "tkO" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999";
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "tok" = (
-/obj/structure/curtain{
-	color = "#c40e0e"
-	},
-/obj/structure/stairs/east{
-	color = "#A47449";
-	dir = 8;
-	plane = -7;
-	opacity = 1
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	layer = 4;
-	pixel_y = -2;
-	plane = -6
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1;
-	plane = -6
-	},
-/turf/open/floor/wood_fancy{
-	color = "#779999"
-	},
-/area/f13/fb/bar)
+/turf/open/indestructible/ground/outside/desert,
+/area)
 "tot" = (
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311"
@@ -3852,12 +3493,20 @@
 /obj/structure/stairs/west{
 	color = "#A47449"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
+"tuX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"tyg" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "tyV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -3866,10 +3515,6 @@
 /obj/structure/chair/middle,
 /obj/structure/window/bronze{
 	dir = 1
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -3890,10 +3535,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
@@ -3918,16 +3559,9 @@
 	color = "#993311";
 	alpha = 10
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "tEH" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - W"
 	},
@@ -3951,10 +3585,6 @@
 	light_range = 2;
 	pixel_y = 13
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -3966,11 +3596,12 @@
 /obj/machinery/telecomms/server/presets/enclave,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"tUa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/simple_door/metal/store,
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "uie" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
 	icon_state = "darkrusty";
@@ -3988,13 +3619,15 @@
 /obj/structure/chair/bench{
 	pixel_y = 12
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"utN" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright1"
+	},
+/area)
 "uvk" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/machinery/telecomms/message_server,
@@ -4007,11 +3640,24 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
-"uME" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
+"uGQ" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - S"
 	},
+/area)
+"uMB" = (
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area)
+"uME" = (
 /obj/structure/fermenting_barrel,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
@@ -4032,16 +3678,9 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "uWY" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999"
 	},
@@ -4065,9 +3704,6 @@
 	desc = "6th of Vixen and 9th";
 	layer = 6
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerborder - W"
 	},
@@ -4080,9 +3716,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "vmj" = (
 /obj/effect/decal/marking,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/structure/wreck/bus/orange{
 	pixel_y = -4;
 	pixel_x = -3;
@@ -4109,6 +3742,11 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"voW" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/wasteland)
 "vsw" = (
 /obj/structure/table/wood/settler,
 /obj/item/melee/onehanded/slavewhip,
@@ -4129,12 +3767,14 @@
 	dir = 1;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"vux" = (
+/obj/structure/chair/booth{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/wasteland)
 "vzp" = (
 /obj/effect/decal/cleanable/glitter/blue{
 	color = "#993311";
@@ -4145,22 +3785,26 @@
 	color = "#993311";
 	alpha = 10
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/whitemarble{
 	color = "#333333"
 	},
 /area/f13/fb/bar)
+"vAD" = (
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area)
+"vDF" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop2left"
+	},
+/area)
 "vEu" = (
 /obj/structure/curtain{
 	color = "#c40e0e";
 	open = 0
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -4186,10 +3830,6 @@
 	mouse_opacity = 0;
 	opacity = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/window/bronze{
 	dir = 1;
 	pixel_y = 4
@@ -4199,10 +3839,6 @@
 	},
 /area/f13/fb/bar)
 "vJz" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/machinery/light/small{
 	color = "#993311";
 	light_color = "#993311";
@@ -4217,10 +3853,6 @@
 	dir = 4;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4;
 	color = "#3B2B1A"
@@ -4233,6 +3865,23 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"vZD" = (
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/obj/vehicle/sealed/car/truck{
+	pixel_x = -42;
+	dir = 2;
+	pixel_y = -7;
+	plane = -2
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999"
+	},
+/area)
 "wdd" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 6
@@ -4251,19 +3900,11 @@
 /obj/structure/sign/poster/contraband/space_cola{
 	pixel_y = 33
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "wev" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1;
 	color = "#3B2B1A"
@@ -4275,10 +3916,6 @@
 "weZ" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#3B2B1A"
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
@@ -4299,22 +3936,19 @@
 	pixel_y = -1;
 	pixel_x = 12
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "wlF" = (
 /obj/structure/chair/stool/retro/tan,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"wnl" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - S"
+	},
+/area/f13/wasteland)
 "wnw" = (
 /obj/machinery/telecomms/server/presets/medical,
 /turf/open/floor/plasteel/f13{
@@ -4331,27 +3965,16 @@
 	color = "#3B2B1A"
 	},
 /obj/structure/chair/stool/retro/tan,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "wum" = (
 /obj/effect/landmark/start/f13/wastelander,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "wwk" = (
 /obj/machinery/vending/hydroseeds,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/machinery/light/small{
 	color = "#993311";
 	dir = 4;
@@ -4363,10 +3986,6 @@
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "wxN" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
@@ -4386,10 +4005,6 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "wCz" = (
@@ -4397,10 +4012,6 @@
 /obj/machinery/light/small{
 	light_color = "#884444";
 	dir = 4
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /turf/open/floor/f13{
 	color = "#ffe9de";
@@ -4429,16 +4040,9 @@
 	dir = 8;
 	color = "#3B2B1A"
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "wJC" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/machinery/light/lampost{
 	pixel_y = 12;
 	pixel_x = 12
@@ -4464,10 +4068,6 @@
 	dir = 1;
 	pixel_y = 4
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/machinery/light/small{
 	color = "#993311";
 	dir = 8;
@@ -4487,31 +4087,16 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "wTs" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom3"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "wTV" = (
 /obj/machinery/microwave/stove,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "wUe" = (
 /obj/machinery/hydroponics/constructable,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "wUh" = (
@@ -4520,20 +4105,16 @@
 	layer = 3;
 	plane = -1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"wUJ" = (
+/obj/effect/landmark/start/f13/wastelander,
+/turf/open/indestructible/ground/outside/sidewalk,
+/area)
 "xaI" = (
 /obj/structure/easel,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
 	color = "#3B2B1A"
@@ -4553,9 +4134,6 @@
 /obj/structure/decoration/hatch{
 	dir = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/road{
 	color = "#999999";
 	icon_state = "horizontaltopborderbottom0"
@@ -4567,25 +4145,24 @@
 	mouse_opacity = 0;
 	opacity = 1
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
 "xpa" = (
 /obj/machinery/door/unpowered/securedoor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/structure/christmas/doorwreath,
 /turf/open/floor/wood_fancy{
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"xxV" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "xyb" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -4605,21 +4182,18 @@
 	color = "#993311";
 	alpha = 10
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "xAW" = (
 /obj/structure/table/abductor,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/item/storage/bag/tray,
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
+"xBu" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area)
 "xCL" = (
 /obj/structure/simple_door/room{
 	plane = -4
@@ -4628,28 +4202,19 @@
 /obj/item/lock_bolt{
 	dir = 8
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/wood_fancy/wood_fancy_dark,
 /area/f13/fb/bar)
 "xFk" = (
 /obj/structure/reagent_dispensers/keg/milk{
 	tank_volume = 100000
 	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
+"xGH" = (
+/turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
 "xNu" = (
 /obj/machinery/vending/hydronutrients,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "xNF" = (
@@ -4659,9 +4224,6 @@
 /area)
 "xPQ" = (
 /obj/effect/landmark/latejoin,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright1"
 	},
@@ -4683,9 +4245,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "xYP" = (
 /obj/effect/decal/marking,
-/obj/effect/overlay/fog/fog2{
-	plane = -2
-	},
 /obj/item/toy/tennis/blue{
 	density = 1;
 	mouse_opacity = 0;
@@ -4705,24 +4264,11 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "ycH" = (
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 4;
-	pixel_x = 2
-	},
-/turf/open/floor/carpet/purple,
-/area/f13/fb/bar)
+/turf/open/indestructible/ground/outside/road,
+/area/f13/wasteland)
 "yeQ" = (
 /obj/structure/sign/painting/library{
 	pixel_x = 32
-	},
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -4749,10 +4295,6 @@
 /obj/item/stack/sheet/leather/ten,
 /obj/item/stack/sheet/hay/five,
 /obj/item/storage/toolbox/artistic,
-/obj/effect/overlay/fog/fog2{
-	plane = -2;
-	alpha = 175
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#3B2B1A"
@@ -4771,36 +4313,36 @@
 /area/f13/fb/bar)
 
 (1,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+kke
+kke
+kke
 xNF
 xNF
 xNF
@@ -4888,36 +4430,36 @@ xNF
 xNF
 "}
 (2,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+xGH
+iWM
+kme
+kke
 xNF
 xNF
 xNF
@@ -5005,66 +4547,66 @@ xNF
 xNF
 "}
 (3,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+cyl
+iPs
+mIA
+uGQ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
 xNF
 xNF
 xNF
@@ -5122,66 +4664,66 @@ xNF
 xNF
 "}
 (4,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5239,66 +4781,66 @@ xNF
 xNF
 "}
 (5,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5356,66 +4898,66 @@ xNF
 xNF
 "}
 (6,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5473,66 +5015,66 @@ xNF
 xNF
 "}
 (7,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5590,66 +5132,66 @@ xNF
 xNF
 "}
 (8,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5707,66 +5249,66 @@ xNF
 xNF
 "}
 (9,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5824,66 +5366,66 @@ xNF
 xNF
 "}
 (10,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -5941,94 +5483,94 @@ xNF
 xNF
 "}
 (11,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 xNF
 xNF
 xNF
@@ -6058,111 +5600,111 @@ xNF
 xNF
 "}
 (12,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 oey
 hox
 pBI
 fcV
 pBI
 hjX
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 sbi
 sbi
 sbi
@@ -6175,94 +5717,94 @@ sbi
 xNF
 "}
 (13,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 oey
 lpN
 pBI
 tFy
 bub
 vmu
-bPG
+tFy
 miw
 cRl
 cRl
@@ -6271,7 +5813,7 @@ heb
 wHw
 sel
 awD
-bPG
+tFy
 wJX
 oOK
 hEt
@@ -6292,111 +5834,111 @@ sbi
 xNF
 "}
 (14,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 ffh
 pBI
 pBI
 ihm
 mVX
 tFy
-bPG
+tFy
 vsw
 iqW
 iqW
-ycH
+lXt
 lXt
 lXt
 krA
 hSj
-bPG
+tFy
 dRv
 lzG
 dNW
-hrM
+nXE
 dRv
 lzG
 dNW
-hrM
+nXE
 mdh
 bXW
 bXW
@@ -6409,94 +5951,94 @@ sbi
 xNF
 "}
 (15,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 eaK
 pBI
 pBI
 tFy
 aZn
 uvM
-bPG
+tFy
 dga
 dez
 kuK
@@ -6505,15 +6047,15 @@ hnl
 bIX
 cFj
 dYw
-bPG
+tFy
 pgU
 mtY
 aTn
-hrM
+nXE
 pgU
 mtY
 aTn
-hrM
+nXE
 mdh
 bXW
 bXW
@@ -6526,111 +6068,111 @@ sbi
 xNF
 "}
 (16,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 mBj
 xQu
 pBI
 fcV
 pBI
 sGq
-bPG
-bPG
+tFy
+tFy
 aoR
-bPG
-bPG
+tFy
+tFy
 xCL
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
 vHp
 wxN
 dCS
-hrM
+nXE
 xga
 wxN
 dCS
-hrM
+nXE
 qge
 tdg
 nbY
@@ -6643,111 +6185,111 @@ sbi
 xNF
 "}
 (17,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
+tFy
+tFy
 ePQ
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
 cVe
 pXS
 okV
-bPG
+tFy
 kJh
 gCH
 imt
-bPG
+tFy
 fDd
-bPG
+tFy
 fVu
 rlR
 kPk
-bPG
+tFy
 fVu
 aBY
-tok
-bPG
+kPk
+tFy
 esa
 oQi
 tkO
@@ -6760,101 +6302,101 @@ sbi
 xNF
 "}
 (18,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 eJV
 jmf
 hBy
-cDo
-bAd
+cYv
+cYv
 cYv
 cYv
 msa
 wxN
-bPG
+tFy
 glE
 dEp
 glE
-bPG
+tFy
 dAC
 gmW
 okV
@@ -6864,7 +6406,7 @@ kNZ
 okV
 okV
 hov
-bPG
+tFy
 pHi
 fdf
 gzw
@@ -6877,94 +6419,94 @@ sbi
 xNF
 "}
 (19,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 thm
 iku
 nuu
@@ -6972,7 +6514,7 @@ goB
 goB
 goB
 iNU
-bNh
+wev
 aJA
 cIc
 cIc
@@ -6981,12 +6523,12 @@ cIc
 cIc
 dQs
 lel
-bPG
+tFy
 rDF
 cuN
-cgn
-eYJ
-eYJ
+oTE
+eYY
+eYY
 uWY
 uWY
 uWY
@@ -6994,6 +6536,66 @@ sbi
 xNF
 "}
 (20,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -7017,71 +6619,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
+tFy
+tFy
 brw
 tot
-bPG
+tFy
 lhy
 wxN
 xyb
@@ -7111,6 +6653,66 @@ sbi
 xNF
 "}
 (21,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -7134,71 +6736,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
+tFy
+tFy
 jJY
 hdN
-bPG
+tFy
 srN
 wxN
 uOS
@@ -7228,6 +6770,66 @@ sbi
 xNF
 "}
 (22,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -7251,71 +6853,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
+tFy
+tFy
 lSC
 lSC
-bPG
+tFy
 mRP
 wxN
 wxN
@@ -7325,7 +6867,7 @@ wxN
 wxN
 wxN
 lel
-fvH
+pVs
 orZ
 orZ
 orZ
@@ -7345,91 +6887,91 @@ sbi
 xNF
 "}
 (23,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 aNE
 okV
 qxm
@@ -7442,7 +6984,7 @@ wxN
 wxN
 wxN
 lel
-fvH
+pVs
 exD
 lJE
 orZ
@@ -7452,8 +6994,8 @@ lel
 gan
 dfJ
 fdf
-eYJ
-eYJ
+eYY
+eYY
 blw
 uWY
 uWY
@@ -7462,91 +7004,91 @@ sbi
 xNF
 "}
 (24,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 qAX
 kMU
 euX
 xaI
-bPG
+tFy
 wdE
 wxN
 wxN
@@ -7559,14 +7101,14 @@ wxN
 wxN
 wxN
 lel
-fvH
+pVs
 orZ
 orZ
 exD
 orZ
 mRP
 lel
-bPG
+tFy
 raB
 hAy
 gzw
@@ -7579,91 +7121,91 @@ sbi
 xNF
 "}
 (25,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 aDr
 cKA
 wxN
 gnx
-bPG
+tFy
 gyr
 iku
 wxN
@@ -7676,7 +7218,7 @@ wsB
 wsB
 cSI
 lel
-fvH
+pVs
 orZ
 orZ
 orZ
@@ -7696,91 +7238,91 @@ sbi
 xNF
 "}
 (26,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 agk
 wxN
 wxN
 kWN
-bPG
+tFy
 pbh
 wxN
 wlF
@@ -7813,90 +7355,90 @@ sbi
 xNF
 "}
 (27,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
 ygG
 yeQ
 yeQ
-eEc
+cIc
 vEu
 vQt
 cIc
@@ -7915,7 +7457,7 @@ okV
 okV
 okV
 okV
-bNh
+wev
 lel
 maZ
 usf
@@ -7930,94 +7472,94 @@ sbi
 xNF
 "}
 (28,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+xNF
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 adu
 adu
-bPG
+tFy
 bpJ
 iYl
 iYl
@@ -8034,7 +7576,7 @@ tzZ
 cIc
 cIc
 san
-kke
+tFy
 mdh
 mLV
 cTW
@@ -8047,6 +7589,66 @@ sbi
 xNF
 "}
 (29,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8070,71 +7672,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 oLR
 wxN
 wxN
-bPG
+tFy
 akT
 wjZ
 iky
@@ -8143,15 +7685,15 @@ qOJ
 fzC
 bNC
 weZ
-bPG
+tFy
 bUG
 ryu
 niY
-bPG
+tFy
 bUG
 fzg
 niY
-bPG
+tFy
 mdh
 mLV
 oTE
@@ -8164,6 +7706,66 @@ sbi
 xNF
 "}
 (30,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8187,80 +7789,20 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 wxN
 wxN
 wxN
-bPG
+tFy
 dLD
-bPG
+tFy
 lvh
 pXC
 xAW
-bPG
-bPG
+tFy
+tFy
 hHE
-bPG
+tFy
 fqj
 wxN
 kUb
@@ -8281,6 +7823,66 @@ sbi
 xNF
 "}
 (31,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8304,71 +7906,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 bhg
 llj
 hov
-bPG
+tFy
 sTj
 rWC
 uME
@@ -8377,7 +7919,7 @@ rWC
 lqG
 seF
 vJz
-bPG
+tFy
 hqa
 kcI
 hEt
@@ -8398,6 +7940,66 @@ sbi
 xNF
 "}
 (32,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8421,71 +8023,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 fxb
 pNr
 lel
-bPG
+tFy
 wTV
 rWC
 rWC
@@ -8494,15 +8036,15 @@ rWC
 rWC
 rWC
 xFk
-bPG
+tFy
 tyV
 lzG
 dNW
-hrM
+nXE
 dRv
 lzG
 dNW
-hrM
+nXE
 mdh
 mLV
 xfT
@@ -8515,6 +8057,66 @@ sbi
 xNF
 "}
 (33,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8538,71 +8140,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 gGC
 ghq
 tPi
-bPG
+tFy
 oNR
 rWC
 rWC
@@ -8611,15 +8153,15 @@ qlV
 rWC
 rWC
 jnG
-bPG
+tFy
 opB
 pxC
 aTn
-hrM
+nXE
 pgU
 pxC
 aTn
-hrM
+nXE
 mdh
 tEH
 ouY
@@ -8632,6 +8174,66 @@ sbi
 xNF
 "}
 (34,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8655,71 +8257,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
+tFy
 gzb
 gBo
 edI
@@ -8728,15 +8270,15 @@ rWC
 rWC
 rWC
 jYx
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
+tFy
 sbi
 sbi
 sbi
@@ -8749,6 +8291,66 @@ sbi
 xNF
 "}
 (35,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8776,76 +8378,16 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
 wUe
 rWC
 rWC
 rWC
 gWU
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -8866,6 +8408,66 @@ xNF
 xNF
 "}
 (36,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -8896,73 +8498,13 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 wUe
 sbf
 rWC
 rWC
 xNu
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -8983,6 +8525,66 @@ xNF
 xNF
 "}
 (37,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -9013,73 +8615,13 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 oaA
 wUe
 wUe
 rWC
 wwk
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -9100,6 +8642,66 @@ xNF
 xNF
 "}
 (38,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -9130,73 +8732,13 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
 hHE
-bPG
-bPG
+tFy
+tFy
 xNF
 xNF
 xNF
@@ -9217,6 +8759,66 @@ xNF
 xNF
 "}
 (39,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -9248,71 +8850,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 mKq
 dig
 uie
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -9334,6 +8876,66 @@ xNF
 xNF
 "}
 (40,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -9365,71 +8967,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 gJF
 uie
 uie
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -9451,6 +8993,66 @@ xNF
 xNF
 "}
 (41,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+bZr
+bZr
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+cgn
 xNF
 xNF
 xNF
@@ -9482,71 +9084,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
+tFy
 wCz
 paz
 ajq
-bPG
+tFy
 xNF
 xNF
 xNF
@@ -9568,6 +9110,66 @@ xNF
 xNF
 "}
 (42,1,1) = {"
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+mAZ
+eWi
+iWM
+kme
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
 xNF
 xNF
 xNF
@@ -9599,71 +9201,11 @@ xNF
 xNF
 xNF
 xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-bPG
-bPG
-bPG
-bPG
-bPG
+tFy
+tFy
+tFy
+tFy
+tFy
 xNF
 xNF
 xNF
@@ -9685,58 +9227,58 @@ xNF
 xNF
 "}
 (43,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+pjD
+iPs
+wnl
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -9802,58 +9344,58 @@ xNF
 xNF
 "}
 (44,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -9919,58 +9461,58 @@ xNF
 xNF
 "}
 (45,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10036,58 +9578,58 @@ xNF
 xNF
 "}
 (46,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10153,58 +9695,58 @@ xNF
 xNF
 "}
 (47,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10270,58 +9812,58 @@ xNF
 xNF
 "}
 (48,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10387,58 +9929,58 @@ xNF
 xNF
 "}
 (49,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10504,58 +10046,58 @@ xNF
 xNF
 "}
 (50,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10621,58 +10163,58 @@ xNF
 xNF
 "}
 (51,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10738,58 +10280,58 @@ xNF
 xNF
 "}
 (52,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10855,58 +10397,58 @@ xNF
 xNF
 "}
 (53,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+hle
+voW
+bPG
+vux
+nZe
+vux
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -10972,58 +10514,58 @@ xNF
 xNF
 "}
 (54,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+bPG
+jIA
+bPG
+iTr
+oRE
+jOV
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11089,58 +10631,58 @@ xNF
 xNF
 "}
 (55,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+qXA
+voW
+cDo
+iTT
+lat
+plR
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11206,58 +10748,58 @@ xNF
 xNF
 "}
 (56,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+bNh
+gpH
+ivL
+oRE
+lbP
+lbP
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11323,58 +10865,58 @@ xNF
 xNF
 "}
 (57,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+bPG
+cDo
+cDo
+bPG
+lbP
+kye
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11440,58 +10982,58 @@ xNF
 xNF
 "}
 (58,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+pck
+qbQ
+tuX
+jIA
+oRE
+fIE
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11557,58 +11099,58 @@ xNF
 xNF
 "}
 (59,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+jqz
+tyg
+qbQ
+hQl
+bPG
+rXS
+iTT
+jqz
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11674,58 +11216,58 @@ xNF
 xNF
 "}
 (60,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+jqz
+tyg
+qbQ
+gAK
+oMh
+lbP
+oRE
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -11791,65 +11333,65 @@ xNF
 xNF
 "}
 (61,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+jqz
+jiM
+iQv
+qbQ
+xxV
+lbP
+lbP
+tUa
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
 xNF
 xNF
 xNF
@@ -11908,65 +11450,65 @@ xNF
 xNF
 "}
 (62,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+jqz
+nFc
+qbQ
+qbQ
+izf
+oRE
+lbP
+nmP
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+afw
+afw
+eww
+mBX
+mZm
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12025,65 +11567,65 @@ xNF
 xNF
 "}
 (63,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+gAN
+cFR
+cJb
+bPG
+pgV
+saY
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+rsD
+rsD
+wUJ
+ngg
+ciH
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12142,65 +11684,65 @@ xNF
 xNF
 "}
 (64,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+rsD
+rsD
+wUJ
+ngg
+ciH
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12259,65 +11801,65 @@ xNF
 xNF
 "}
 (65,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+nOQ
+bAd
+dxX
+dkx
+mZm
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12376,65 +11918,65 @@ xNF
 xNF
 "}
 (66,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+gHV
+mZm
+anF
+anF
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12493,65 +12035,65 @@ xNF
 xNF
 "}
 (67,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+fgf
+vAD
+gih
+ihN
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12610,65 +12152,65 @@ xNF
 xNF
 "}
 (68,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+dlO
+uMB
+eEc
+eEc
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12727,65 +12269,65 @@ xNF
 xNF
 "}
 (69,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+srr
+vAD
+gih
+mPH
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12844,65 +12386,65 @@ xNF
 xNF
 "}
 (70,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+dlO
+mZm
+anF
+anF
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -12961,65 +12503,65 @@ xNF
 xNF
 "}
 (71,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+dlO
+vAD
+nJj
+mPH
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13078,65 +12620,65 @@ xNF
 xNF
 "}
 (72,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+fgf
+eEc
+eEc
+vZD
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13195,65 +12737,65 @@ xNF
 xNF
 "}
 (73,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+vDF
+vAD
+nJj
+mPH
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13312,65 +12854,65 @@ xNF
 xNF
 "}
 (74,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+vDF
+mZm
+anF
+anF
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13429,65 +12971,65 @@ xNF
 xNF
 "}
 (75,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+srr
+lEF
+qRY
+fmK
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13546,65 +13088,65 @@ xNF
 xNF
 "}
 (76,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+vDF
+uMB
+eEc
+eEc
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13663,65 +13205,65 @@ xNF
 xNF
 "}
 (77,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+xBu
+lEF
+qRY
+qRY
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13780,65 +13322,65 @@ xNF
 xNF
 "}
 (78,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+xBu
+uMB
+eEc
+eEc
+aLX
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -13897,65 +13439,65 @@ xNF
 xNF
 "}
 (79,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+xBu
+lEF
+qRY
+qRY
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -14014,65 +13556,65 @@ xNF
 xNF
 "}
 (80,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+xBu
+rHO
+eEc
+eEc
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -14131,65 +13673,65 @@ xNF
 xNF
 "}
 (81,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+xBu
+ciH
+anF
+anF
+anF
+anF
+anF
+kke
 xNF
 xNF
 xNF
@@ -14248,65 +13790,65 @@ xNF
 xNF
 "}
 (82,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+mDx
+utN
+nZO
+oEK
+nZO
+rNt
+rNt
+kke
 xNF
 xNF
 xNF
@@ -14365,65 +13907,65 @@ xNF
 xNF
 "}
 (83,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
 xNF
 xNF
 xNF
@@ -14482,58 +14024,58 @@ xNF
 xNF
 "}
 (84,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -14599,58 +14141,58 @@ xNF
 xNF
 "}
 (85,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -14716,58 +14258,58 @@ xNF
 xNF
 "}
 (86,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -14833,58 +14375,58 @@ xNF
 xNF
 "}
 (87,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -14950,58 +14492,58 @@ xNF
 xNF
 "}
 (88,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15067,58 +14609,58 @@ xNF
 xNF
 "}
 (89,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15184,58 +14726,58 @@ xNF
 xNF
 "}
 (90,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15301,58 +14843,58 @@ xNF
 xNF
 "}
 (91,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15418,58 +14960,58 @@ xNF
 xNF
 "}
 (92,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15535,58 +15077,58 @@ xNF
 xNF
 "}
 (93,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15652,58 +15194,58 @@ xNF
 xNF
 "}
 (94,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15769,58 +15311,58 @@ xNF
 xNF
 "}
 (95,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -15886,58 +15428,58 @@ xNF
 xNF
 "}
 (96,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16003,58 +15545,58 @@ xNF
 xNF
 "}
 (97,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16120,58 +15662,58 @@ xNF
 xNF
 "}
 (98,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16237,58 +15779,58 @@ xNF
 xNF
 "}
 (99,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16354,58 +15896,58 @@ xNF
 xNF
 "}
 (100,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16471,58 +16013,58 @@ xNF
 xNF
 "}
 (101,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16588,58 +16130,58 @@ xNF
 xNF
 "}
 (102,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16705,58 +16247,58 @@ xNF
 xNF
 "}
 (103,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16822,58 +16364,58 @@ xNF
 xNF
 "}
 (104,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -16939,58 +16481,58 @@ xNF
 xNF
 "}
 (105,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+iIx
+jPj
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17056,58 +16598,58 @@ xNF
 xNF
 "}
 (106,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17173,58 +16715,58 @@ xNF
 xNF
 "}
 (107,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17290,58 +16832,58 @@ xNF
 xNF
 "}
 (108,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17407,58 +16949,58 @@ xNF
 xNF
 "}
 (109,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17524,58 +17066,58 @@ xNF
 xNF
 "}
 (110,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17641,58 +17183,58 @@ xNF
 xNF
 "}
 (111,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17758,58 +17300,58 @@ xNF
 xNF
 "}
 (112,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17875,58 +17417,58 @@ xNF
 xNF
 "}
 (113,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -17992,58 +17534,58 @@ xNF
 xNF
 "}
 (114,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+tok
+tok
+tok
+tok
+tok
+tok
+tok
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+ycH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+kke
 xNF
 xNF
 xNF
@@ -18109,58 +17651,58 @@ xNF
 xNF
 "}
 (115,1,1) = {"
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
-xNF
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+hrM
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
+kke
 xNF
 xNF
 xNF
