@@ -24,11 +24,14 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "afw" = (
-/obj/effect/landmark/latejoin,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
+/obj/machinery/vending/boozeomat{
+	pixel_x = -33;
+	density = 0
 	},
-/area)
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/crew_quarters/bar)
 "agk" = (
 /obj/structure/table/wood/settler,
 /obj/item/toy/crayon/spraycan,
@@ -348,11 +351,10 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "bAd" = (
+/obj/structure/sign/cafesign,
 /obj/effect/landmark/start/f13/barkeep,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft2top"
-	},
-/area)
+/turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
 "bIX" = (
 /obj/structure/table/abductor{
 	density = 0
@@ -448,12 +450,10 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "cFR" = (
-/obj/structure/table,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - S"
 	},
-/area/crew_quarters/bar)
+/area/f13/wasteland)
 "cIc" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -464,12 +464,10 @@
 	},
 /area/f13/fb/bar)
 "cJb" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/common,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - E"
 	},
-/area/crew_quarters/bar)
+/area/f13/wasteland)
 "cKA" = (
 /obj/structure/chair/stool,
 /turf/open/floor/wood_fancy{
@@ -510,6 +508,12 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"cXj" = (
+/obj/structure/decoration/clock/active{
+	pixel_y = 31
+	},
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
 "cYv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
@@ -572,15 +576,12 @@
 	},
 /area/f13/fb/bar)
 "dkx" = (
-/obj/effect/landmark/start/f13/wastelander,
-/obj/machinery/light/lampost{
-	pixel_y = 12;
-	pixel_x = 12
+/obj/structure/rug/carpet3{
+	pixel_x = -17;
+	pixel_y = -30
 	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder - S"
-	},
-/area)
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "dpG" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
@@ -588,15 +589,17 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "dua" = (
-/obj/structure/bookcase,
-/turf/open/floor/wood_common,
-/area/bridge/meeting_room)
-"dxX" = (
-/obj/effect/landmark/start/f13/wastelander,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft2"
+	icon_state = "verticalleftborderleft0"
 	},
-/area)
+/area/f13/wasteland)
+"dxX" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "dyD" = (
 /obj/structure/table,
 /turf/open/floor/f13,
@@ -849,6 +852,23 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/city/newboston/outdoors)
+"efe" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
+"ejM" = (
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/lock_bolt{
+	dir = 1
+	},
+/turf/open/floor/f13/wood,
+/area/crew_quarters/bar)
 "erJ" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -875,11 +895,24 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "eww" = (
-/obj/effect/landmark/latejoin,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright1"
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
 	},
-/area)
+/obj/structure/sign/poster/official/fruit_bowl{
+	pixel_y = 30
+	},
+/obj/machinery/chem_dispenser/drinks/beer{
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = -7
+	},
+/obj/structure/table,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/crew_quarters/bar)
 "exD" = (
 /obj/machinery/light/floor{
 	light_color = "#993311";
@@ -921,6 +954,10 @@
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/dorms)
+"eBo" = (
+/obj/structure/chalkboard,
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "eEc" = (
 /obj/item/toy/tennis/blue{
 	density = 1;
@@ -1096,10 +1133,8 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "fNJ" = (
-/obj/structure/simple_door/wood/alt,
-/turf/closed/wall/mineral/concrete{
-	desc = "A pre-War wall made of solid concrete."
-	},
+/obj/structure/chalkboard,
+/turf/open/floor/carpet/blue/airless,
 /area/bridge/meeting_room)
 "fRv" = (
 /obj/machinery/telecomms/server/presets/science,
@@ -1230,6 +1265,13 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"gyD" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
 "gzb" = (
 /obj/structure/table/abductor,
 /obj/machinery/reagentgrinder,
@@ -1615,6 +1657,12 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"hVN" = (
+/obj/structure/table,
+/obj/item/storage/box/cups,
+/obj/item/storage/box/cups,
+/turf/open/floor/f13/wood,
+/area/crew_quarters/bar)
 "ihm" = (
 /obj/effect/sound_emitter/foxybar/airconditioner,
 /turf/closed/wall/mineral/brick,
@@ -1676,19 +1724,21 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "ivL" = (
-/obj/structure/simple_door/interior,
-/obj/structure/barricade/wooden,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/crew_quarters/bar)
+/obj/structure/bookcase,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/obj/item/toy/crayon/spraycan,
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "izf" = (
-/obj/structure/table,
-/obj/structure/barricade/wooden,
-/obj/structure/barricade/wooden/planks,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/crew_quarters/bar)
+/obj/structure/simple_door/interior,
+/obj/item/lock_bolt,
+/turf/open/floor/f13,
+/area/crew_quarters/dorms)
 "iDj" = (
 /obj/machinery/telecomms/server/presets/legion,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -1746,11 +1796,9 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "iQv" = (
-/obj/effect/spawner/lootdrop/f13/common,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/crew_quarters/bar)
+/obj/item/kirbyplants/bonsai/orange,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "iTr" = (
 /obj/structure/table/booth,
 /obj/machinery/light/small{
@@ -1810,9 +1858,14 @@
 /turf/open/floor/plasteel/f13/darkmarble,
 /area/f13/fb/bar)
 "jqz" = (
-/obj/structure/window/fulltile/house,
-/turf/open/floor/f13/wood,
-/area/crew_quarters/bar)
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/f13/wasteland)
+"jub" = (
+/obj/effect/landmark/start/f13/barkeep,
+/turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
 "jIA" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/f13/wood,
@@ -1931,6 +1984,15 @@
 /obj/machinery/telecomms/server/presets/command,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"kGy" = (
+/obj/structure/simple_door/wood/alt,
+/obj/item/lock_bolt{
+	dir = 4
+	},
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/bridge/meeting_room)
 "kJh" = (
 /obj/structure/railing/corner{
 	dir = 4;
@@ -2050,6 +2112,10 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"lbf" = (
+/obj/item/kirbyplants/bonsai,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "lbP" = (
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
@@ -2073,6 +2139,12 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"liQ" = (
+/obj/effect/landmark/latejoin,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - W"
+	},
+/area/f13/wasteland)
 "ljD" = (
 /obj/machinery/telecomms/server/presets/khans,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -2100,6 +2172,11 @@
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
+"lqs" = (
+/obj/structure/simple_door/wood/alt,
+/obj/item/lock_bolt,
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "lqG" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/item/storage/fancy/egg_box,
@@ -2172,6 +2249,13 @@
 	color = "#333333"
 	},
 /area/f13/fb/bar)
+"lRh" = (
+/obj/structure/simple_door/wood/alt,
+/obj/item/lock_bolt{
+	dir = 4
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "lSC" = (
 /obj/structure/curtain{
 	color = "#c40e0e";
@@ -2179,6 +2263,11 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/fb/bar)
+"lTU" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "lXt" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -2293,28 +2382,13 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
 "mBX" = (
-/obj/structure/sign/crosswalk{
-	icon_state = "stop";
-	pixel_x = -8;
-	pixel_y = 4;
-	layer = 4
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -3
 	},
-/obj/structure/sign/crosswalk{
-	pixel_y = 11
-	},
-/obj/structure/sign/crosswalk{
-	pixel_x = 7;
-	pixel_y = 3;
-	icon = 'modular_coyote/icons/objects/street_signs.dmi';
-	icon_state = "street";
-	name = "Welcome to the Vixen Bar!";
-	desc = "6th of Vixen and 9th";
-	layer = 6
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder - W"
-	},
-/area)
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "mDx" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner - W"
@@ -2386,11 +2460,51 @@
 	},
 /area)
 "ngg" = (
-/obj/effect/landmark/start/f13/wastelander,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#3B2B1A"
 	},
-/area)
+/obj/machinery/light/small{
+	color = "#993311";
+	dir = 4;
+	light_color = "#993311";
+	light_power = 2;
+	light_range = 2;
+	pixel_y = 13
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4;
+	color = "#3B2B1A"
+	},
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_y = 15;
+	pixel_x = -16
+	},
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 6;
+	pixel_x = -9
+	},
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 6;
+	pixel_x = -9
+	},
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 3;
+	pixel_x = 1
+	},
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 3;
+	pixel_x = 1
+	},
+/obj/effect/sound_emitter/foxybar/machinery,
+/obj/structure/table,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/crew_quarters/bar)
 "ngO" = (
 /turf/open/floor/carpet/red,
 /area/bridge/meeting_room)
@@ -2428,6 +2542,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
+"noK" = (
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "nsl" = (
 /obj/structure/sign/departments/showers,
 /turf/closed/wall/mineral/concrete{
@@ -2470,12 +2591,10 @@
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
 "nFc" = (
-/obj/structure/table,
-/obj/item/stack/f13Cash/random/low,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - S"
 	},
-/area/crew_quarters/bar)
+/area/f13/wasteland)
 "nJj" = (
 /obj/effect/decal/marking,
 /obj/effect/landmark/start/f13/wastelander,
@@ -2485,10 +2604,9 @@
 	},
 /area)
 "nOQ" = (
-/obj/structure/sign/cafesign,
-/obj/effect/landmark/start/f13/barkeep,
+/obj/effect/landmark/start/f13/wastelander,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerbordercorner - S"
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "nPu" = (
@@ -2738,7 +2856,8 @@
 /turf/open/floor/carpet/blue/airless,
 /area/bridge/meeting_room)
 "pvY" = (
-/obj/structure/chalkboard,
+/obj/structure/table,
+/obj/item/paper_bin,
 /turf/open/floor/f13,
 /area/bridge/meeting_room)
 "pxC" = (
@@ -2797,6 +2916,19 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"pOu" = (
+/obj/effect/turf_decal/vg_decals/numbers/six{
+	pixel_x = -7;
+	pixel_y = 33
+	},
+/obj/effect/turf_decal/vg_decals/numbers/nine{
+	pixel_y = 33;
+	pixel_x = 6
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/f13/wasteland)
 "pVs" = (
 /obj/effect/turf_decal/weather/splinefancy{
 	dir = 1;
@@ -2868,6 +3000,11 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"qgb" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/open/floor/carpet/blue/airless,
+/area/bridge/meeting_room)
 "qge" = (
 /turf/closed/wall/mineral/concrete{
 	desc = "A pre-War wall made of solid concrete."
@@ -3026,9 +3163,10 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
 "rsD" = (
-/obj/effect/landmark/start/f13/wastelander/clubworker,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area)
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerbordercorner - N"
+	},
+/area/f13/wasteland)
 "ryu" = (
 /obj/structure/curtain{
 	color = "#c40e0e"
@@ -3102,7 +3240,7 @@
 	},
 /area/f13/fb/bar)
 "saY" = (
-/obj/structure/table,
+/obj/structure/window/fulltile/wood_window,
 /turf/open/floor/f13/wood,
 /area/crew_quarters/bar)
 "sbf" = (
@@ -3183,6 +3321,13 @@
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"syE" = (
+/obj/structure/table,
+/obj/structure/food_printer,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/crew_quarters/bar)
 "sGq" = (
 /obj/machinery/light/small{
 	color = "#993311";
@@ -3261,7 +3406,7 @@
 	},
 /area/crew_quarters/bar)
 "tyg" = (
-/obj/machinery/deepfryer,
+/obj/structure/table,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -3330,9 +3475,14 @@
 /turf/closed/wall/mineral/brick,
 /area/f13/fb/bar)
 "tKj" = (
-/obj/structure/simple_door/interior,
-/turf/open/floor/f13,
-/area/crew_quarters/dorms)
+/obj/structure/simple_door/wood/alt,
+/obj/item/lock_bolt{
+	dir = 8
+	},
+/turf/closed/wall/mineral/concrete{
+	desc = "A pre-War wall made of solid concrete."
+	},
+/area/bridge/meeting_room)
 "tPi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
@@ -3386,6 +3536,21 @@
 /obj/machinery/telecomms/server/presets/vault,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/wasteland/city/newboston/outdoors)
+"uqY" = (
+/obj/item/toy/tennis/blue{
+	density = 1;
+	mouse_opacity = 0;
+	alpha = 0;
+	anchored = 1
+	},
+/obj/structure/decoration/hatch{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/road{
+	color = "#999999";
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area)
 "utN" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright1"
@@ -3438,6 +3603,13 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"uQm" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/wood_common,
+/area/bridge/meeting_room)
 "vlJ" = (
 /obj/effect/turf_decal/stripes/asteroid/corner{
 	dir = 4
@@ -3456,9 +3628,19 @@
 /turf/open/floor/plasteel/freezer,
 /area/f13/fb/bar)
 "vne" = (
-/obj/structure/simple_door/wood/alt,
-/turf/open/floor/f13,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/carpet/blue/airless,
 /area/bridge/meeting_room)
+"vnH" = (
+/obj/structure/simple_door/interior,
+/obj/item/lock_bolt{
+	dir = 8
+	},
+/turf/open/floor/f13/wood,
+/area/crew_quarters/bar)
 "voW" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
@@ -3584,6 +3766,18 @@
 	color = "#779999"
 	},
 /area/f13/fb/bar)
+"vRN" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerborder - W"
+	},
+/area/f13/wasteland)
+"vXF" = (
+/obj/structure/simple_door/wood/alt,
+/obj/item/lock_bolt{
+	dir = 8
+	},
+/turf/open/floor/f13,
+/area/bridge/meeting_room)
 "vZD" = (
 /obj/item/toy/tennis/blue{
 	density = 1;
@@ -3682,12 +3876,12 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/fb/bar)
 "wup" = (
-/obj/machinery/light/small{
-	dir = 8;
-	pixel_x = -3
+/obj/structure/simple_door/interior,
+/obj/item/lock_bolt{
+	dir = 1
 	},
 /turf/open/floor/f13,
-/area/bridge/meeting_room)
+/area/crew_quarters/dorms)
 "wwk" = (
 /obj/machinery/vending/hydroseeds,
 /obj/machinery/light/small{
@@ -3757,6 +3951,12 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/fb/bar)
+"wHN" = (
+/obj/structure/decoration/clock/active{
+	pixel_y = 31
+	},
+/turf/open/floor/carpet/red,
+/area/bridge/meeting_room)
 "wJX" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
@@ -3812,8 +4012,14 @@
 /area/f13/fb/bar)
 "wUJ" = (
 /obj/effect/landmark/start/f13/wastelander,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area)
+/obj/machinery/light/lampost{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/wasteland)
 "xaI" = (
 /obj/structure/easel,
 /obj/effect/turf_decal/siding/wood{
@@ -3849,8 +4055,7 @@
 	},
 /area/f13/fb/bar)
 "xxV" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/chem_master/condimaster,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -9746,14 +9951,14 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
+qge
+qge
+qge
+qge
+qge
+qge
+qge
+qge
 eYJ
 eYJ
 eYJ
@@ -9863,14 +10068,14 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
+qge
+hle
+voW
+bPG
+vux
+nZe
+vux
+saY
 eYJ
 eYJ
 eYJ
@@ -9980,17 +10185,17 @@ eYJ
 eYJ
 eYJ
 eYJ
+qge
+bPG
+vnH
+bPG
+iTr
+oRE
+jOV
+saY
 eYJ
 eYJ
 eYJ
-qge
-qge
-qge
-qge
-qge
-qge
-qge
-qge
 eYJ
 eYJ
 eYJ
@@ -10097,17 +10302,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
 qge
-hle
+qXA
 voW
-bPG
-vux
-nZe
-vux
-jqz
+cDo
+iTT
+lbP
+plR
+saY
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10214,17 +10419,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
 qge
-bPG
-jIA
-bPG
-iTr
+bNh
+gpH
+ejM
 oRE
-jOV
-jqz
+lbP
+lbP
+qge
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10331,17 +10536,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
 qge
-qXA
-voW
+bPG
 cDo
-iTT
+cDo
+bPG
 lbP
-plR
-jqz
+kye
+saY
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10448,17 +10653,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
 qge
-bNh
-gpH
-ivL
+pck
+afw
+tuX
+jIA
 oRE
-lbP
-lbP
-qge
+fIE
+saY
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10565,17 +10770,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-qge
+saY
+eww
+qbQ
+hQl
 bPG
-cDo
-cDo
-bPG
-lbP
-kye
-jqz
+rXS
+iTT
+saY
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10682,17 +10887,17 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-qge
-pck
+saY
+ngg
 qbQ
-tuX
-jIA
+qbQ
+oMh
+lbP
 oRE
-fIE
-jqz
+qge
+eYJ
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -10799,24 +11004,24 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-jqz
-tyg
+saY
+jiM
 qbQ
-hQl
-bPG
-rXS
-iTT
+qbQ
+tyg
+lbP
+lbP
+tUa
 jqz
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+vRN
 eYJ
 eYJ
 hrM
@@ -10916,24 +11121,24 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-jqz
+saY
+syE
+qbQ
+qbQ
 tyg
-qbQ
-qbQ
-oMh
-lbP
 oRE
-qge
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
-eYJ
+lbP
+nmP
+dua
+dua
+dua
+cJb
+cFR
+dua
+dua
+dua
+cJb
+fvH
 eYJ
 eYJ
 hrM
@@ -11033,24 +11238,24 @@ eYJ
 eYJ
 eYJ
 eYJ
-eYJ
-eYJ
-eYJ
-jqz
-jiM
-iQv
+qge
+gAN
 qbQ
 xxV
-lbP
-lbP
-tUa
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+qge
+pgV
+hVN
+qge
 eYJ
+eYJ
+eYJ
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -11150,31 +11355,31 @@ eYJ
 eYJ
 eYJ
 eYJ
+qge
+qge
+qge
+qge
+qge
+qge
+qge
+qge
 eYJ
 eYJ
 eYJ
-jqz
-nFc
-qbQ
-qbQ
-izf
-oRE
-lbP
-nmP
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+erJ
+mDx
 cyl
-afw
-eww
-mBX
+cyl
+liQ
 mZm
+anF
+anF
+anF
 anF
 anF
 kke
@@ -11270,28 +11475,28 @@ eYJ
 eYJ
 eYJ
 eYJ
-qge
-gAN
-cFR
-cJb
-bPG
-pgV
-saY
-qge
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
-xGH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+erJ
 xGH
 hAy
-rsD
+hAy
 wUJ
-ngg
-ciH
+vAD
+mPH
+mPH
+anF
 anF
 anF
 kke
@@ -11387,28 +11592,28 @@ eYJ
 eYJ
 eYJ
 eYJ
-qge
-qge
-qge
-qge
-qge
-qge
-qge
-qge
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
-xGH
+eYJ
+eYJ
+eYJ
+eYJ
+eYJ
+erJ
+fvH
+eYJ
+eYJ
+eYJ
+erJ
 xGH
 hAy
-rsD
-wUJ
-ngg
-ciH
+hAy
+nOQ
+mZm
+anF
+anF
+anF
 anF
 anF
 kke
@@ -11496,36 +11701,36 @@ ycH
 ycH
 ycH
 erJ
+mDx
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+rsD
 fvH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
 eYJ
 eYJ
 eYJ
+erJ
 xGH
-xGH
-xGH
-xGH
-nOQ
 bAd
-dxX
-dkx
-mZm
+jub
+nOQ
+vAD
+mPH
+mPH
+anF
 anF
 anF
 kke
@@ -11613,7 +11818,6 @@ ycH
 ycH
 ycH
 erJ
-fvH
 xGH
 xGH
 xGH
@@ -11627,19 +11831,20 @@ xGH
 xGH
 xGH
 xGH
-xGH
-xGH
-xGH
-xGH
-eYJ
-eYJ
-eYJ
 xGH
 xGH
 xGH
 xGH
 fvH
-mZm
+eYJ
+eYJ
+eYJ
+erJ
+xGH
+xGH
+xGH
+srr
+ciH
 anF
 anF
 anF
@@ -11730,28 +11935,28 @@ ycH
 ycH
 ycH
 erJ
+cFR
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+cJb
 fvH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -11848,27 +12053,27 @@ ycH
 ycH
 erJ
 fvH
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
 eYJ
 eYJ
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -11965,14 +12170,12 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 cgn
+fNJ
+gyD
 pvY
-wup
-dyD
 njA
-dyD
+mBX
 njA
 lII
 cgn
@@ -11980,12 +12183,14 @@ tUE
 tCj
 prn
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -12081,12 +12286,10 @@ ycH
 ycH
 ycH
 erJ
-fvH
-eYJ
-eYJ
+mDx
 cgn
-lII
-lII
+cXj
+prn
 dyD
 njA
 dyD
@@ -12095,19 +12298,21 @@ lII
 fKH
 gHV
 oHg
-oHg
+qgb
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
 fvH
-mZm
+ciH
 anF
 anF
 anF
@@ -12198,28 +12403,28 @@ ycH
 ycH
 ycH
 erJ
+xGH
+lqs
+prn
+prn
+lII
+lII
+lII
+lII
+lII
+cgn
+gHV
+gHV
+gHV
+cgn
+eYJ
+eYJ
+erJ
 fvH
 eYJ
 eYJ
-fKH
-lII
-lII
-lII
-lII
-lII
-lII
-lII
-cgn
-gHV
-gHV
-gHV
-cgn
-xGH
-xGH
 eYJ
-eYJ
-eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -12315,32 +12520,32 @@ ycH
 ycH
 ycH
 erJ
-fvH
-eYJ
-eYJ
+cFR
 cgn
-pvY
-lII
+fNJ
+prn
 dyD
 njA
 dyD
 njA
 lII
 cgn
-dua
+ivL
 gHV
 gHV
 cgn
-xGH
-xGH
 eYJ
 eYJ
-eYJ
-xGH
-xGH
-xGH
-xGH
+erJ
 fvH
+eYJ
+eYJ
+eYJ
+erJ
+xGH
+xGH
+xGH
+srr
 eEc
 eEc
 vZD
@@ -12433,27 +12638,27 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 cgn
-lII
-lII
+prn
+vne
 dyD
 njA
-dyD
+efe
 njA
 lII
 cgn
 kpC
 gHV
-gHV
+miJ
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -12550,8 +12755,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 cgn
 cgn
 cgn
@@ -12559,23 +12762,25 @@ cgn
 cgn
 cgn
 hwS
-vne
+vXF
 cgn
 cgn
-fNJ
+tKj
 cgn
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
 fvH
-mZm
+ciH
 anF
 anF
 anF
@@ -12669,25 +12874,25 @@ erJ
 fvH
 eYJ
 eYJ
+eYJ
+eYJ
 cgn
+iQv
 lII
 lII
 lII
 lII
 lII
-lII
-lII
-lII
-lII
-lII
-lII
-aEB
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+iQv
+cgn
+pOu
+jqz
+rsD
+mDx
+jqz
+jqz
+jqz
+rsD
 xGH
 xGH
 xGH
@@ -12786,19 +12991,19 @@ erJ
 fvH
 eYJ
 eYJ
+eYJ
+eYJ
 cgn
 lII
 lII
 lII
 lII
 lII
-lII
-lII
-lII
-lII
-lII
+dkx
 lII
 aEB
+xGH
+xGH
 xGH
 xGH
 xGH
@@ -12903,25 +13108,25 @@ erJ
 fvH
 eYJ
 eYJ
+eYJ
+eYJ
 cgn
-lII
-lII
-lII
-lII
-lII
+lbf
 vrP
 lII
 lII
 lII
 lII
-lII
-aEB
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+lbf
+cgn
+dua
+dua
+cJb
+cFR
+dua
+dua
+dua
+cJb
 xGH
 xGH
 xGH
@@ -13018,32 +13223,32 @@ ycH
 ycH
 erJ
 fvH
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+lRh
+cgn
+cgn
+kGy
+cgn
+cgn
 eYJ
 eYJ
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-vne
-cgn
-cgn
-fNJ
-cgn
-cgn
-xGH
-xGH
-eYJ
-eYJ
-eYJ
-xGH
-xGH
-xGH
-xGH
+erJ
 fvH
-uMB
+eYJ
+eYJ
+eYJ
+erJ
+xGH
+xGH
+xGH
+srr
+uqY
 eEc
 eEc
 aLX
@@ -13135,27 +13340,27 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 cgn
+eBo
+dxX
 pvY
-lII
-dyD
 njA
-dyD
+mBX
 njA
 lII
 cgn
 rTP
 gHV
-gHV
+uQm
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -13251,28 +13456,28 @@ ycH
 ycH
 ycH
 erJ
+mDx
+cgn
+wHN
+ngO
+dyD
+njA
+dyD
+njA
+lII
+cgn
+ivL
+gHV
+gHV
+cgn
+eYJ
+eYJ
+erJ
 fvH
 eYJ
 eYJ
-cgn
-lII
-lII
-dyD
-njA
-dyD
-njA
-lII
-cgn
-dua
-gHV
-gHV
-cgn
-xGH
-xGH
 eYJ
-eYJ
-eYJ
-xGH
+erJ
 xGH
 xGH
 xGH
@@ -13368,12 +13573,10 @@ ycH
 ycH
 ycH
 erJ
-fvH
-eYJ
-eYJ
-fKH
-lII
-lII
+xGH
+lqs
+ngO
+ngO
 lII
 lII
 lII
@@ -13384,16 +13587,18 @@ gHV
 gHV
 gHV
 cgn
-xGH
-xGH
 eYJ
 eYJ
-eYJ
-xGH
-xGH
-xGH
-xGH
+erJ
 fvH
+eYJ
+eYJ
+eYJ
+erJ
+xGH
+xGH
+xGH
+srr
 ciH
 anF
 anF
@@ -13485,12 +13690,10 @@ ycH
 ycH
 ycH
 erJ
-fvH
-eYJ
-eYJ
+cFR
 cgn
-pvY
-lII
+eBo
+ngO
 dyD
 njA
 dyD
@@ -13499,17 +13702,19 @@ lII
 fKH
 gHV
 sST
-sST
+lTU
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
-xGH
-xGH
+erJ
+cFR
+dua
+dua
 mDx
 utN
 nZO
@@ -13603,14 +13808,12 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 cgn
-lII
-vrP
+ngO
+noK
 dyD
 njA
-dyD
+efe
 njA
 lII
 cgn
@@ -13618,13 +13821,15 @@ miJ
 myY
 ngO
 cgn
-xGH
-xGH
+eYJ
+eYJ
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -13720,28 +13925,28 @@ ycH
 ycH
 erJ
 fvH
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
+cgn
 eYJ
 eYJ
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-cgn
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -13836,29 +14041,29 @@ ycH
 ycH
 ycH
 erJ
+mDx
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+jqz
+rsD
 fvH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -13953,29 +14158,29 @@ ycH
 ycH
 ycH
 erJ
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
+xGH
 fvH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -14070,29 +14275,29 @@ ycH
 ycH
 ycH
 erJ
+cFR
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+cJb
 fvH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -14188,28 +14393,28 @@ ycH
 ycH
 erJ
 fvH
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
 eYJ
 eYJ
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 eYJ
-xGH
-xGH
+erJ
+fvH
 eYJ
 eYJ
 hrM
@@ -14305,11 +14510,9 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 oXC
-tKj
+wup
 dfn
 tdg
 dfn
@@ -14320,13 +14523,15 @@ dfn
 dfn
 dfn
 tdg
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+eYJ
+eYJ
+erJ
+mDx
+jqz
+jqz
+jqz
+rsD
+fvH
 eYJ
 eYJ
 hrM
@@ -14422,13 +14627,11 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 tdg
 tdg
 dfn
-tKj
+wup
 dfn
 dfn
 dfn
@@ -14437,13 +14640,15 @@ dfn
 dfn
 dfn
 eBd
+jqz
+jqz
+rsD
 xGH
 xGH
 xGH
 xGH
 xGH
-xGH
-xGH
+fvH
 eYJ
 eYJ
 hrM
@@ -14539,8 +14744,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 ezw
 dfn
@@ -14554,13 +14757,15 @@ dfn
 dfn
 dfn
 eBd
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
-xGH
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+dua
+nFc
 eYJ
 eYJ
 hrM
@@ -14656,8 +14861,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 mnX
 dfn
@@ -14671,6 +14874,8 @@ dfn
 dfn
 dfn
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -14773,21 +14978,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
+tdg
 eYJ
 eYJ
-tdg
-tdg
-tdg
-tdg
-tdg
-dfn
-dfn
-dfn
-tdg
-tdg
-tdg
-tdg
-tdg
 eYJ
 eYJ
 eYJ
@@ -14890,21 +15095,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
 eYJ
 eYJ
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
 eYJ
 eYJ
 eYJ
@@ -15007,21 +15212,21 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 jUQ
 dfn
 dfn
-tKj
+wup
 dfn
 dfn
 dfn
-tKj
+izf
 dfn
 dfn
 jUQ
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -15124,8 +15329,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 dfn
 dfn
@@ -15139,6 +15342,8 @@ srv
 dfn
 dfn
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -15241,21 +15446,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
+tdg
 eYJ
 eYJ
-tdg
-tdg
-tdg
-tdg
-tdg
-dfn
-dfn
-dfn
-tdg
-tdg
-tdg
-tdg
-tdg
 eYJ
 eYJ
 eYJ
@@ -15358,21 +15563,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
 eYJ
 eYJ
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
 eYJ
 eYJ
 eYJ
@@ -15475,21 +15680,21 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 jUQ
 dfn
 dfn
-tKj
+wup
 dfn
 dfn
 dfn
-tKj
+izf
 dfn
 dfn
 jUQ
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -15592,8 +15797,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 dfn
 dfn
@@ -15607,6 +15810,8 @@ srv
 dfn
 dfn
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -15709,21 +15914,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+tdg
+tdg
+tdg
+tdg
+dfn
+dfn
+dfn
+tdg
+tdg
+tdg
+tdg
+tdg
 eYJ
 eYJ
-tdg
-tdg
-tdg
-tdg
-tdg
-dfn
-dfn
-dfn
-tdg
-tdg
-tdg
-tdg
-tdg
 eYJ
 eYJ
 eYJ
@@ -15826,8 +16031,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 jUQ
 dfn
@@ -15841,6 +16044,8 @@ dfn
 dfn
 jUQ
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -15943,21 +16148,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
+dfn
+dfn
+dfn
+tdg
 eYJ
 eYJ
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
-dfn
-dfn
-dfn
-tdg
 eYJ
 eYJ
 eYJ
@@ -16060,21 +16265,21 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 dfn
 dfn
 dfn
-tKj
+wup
 dfn
 dfn
 dfn
-tKj
+izf
 dfn
 dfn
 dfn
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -16177,8 +16382,6 @@ ycH
 ycH
 erJ
 fvH
-eYJ
-eYJ
 tdg
 jUQ
 dfn
@@ -16192,6 +16395,8 @@ srv
 dfn
 jUQ
 tdg
+eYJ
+eYJ
 eYJ
 eYJ
 eYJ
@@ -16294,21 +16499,21 @@ ycH
 ycH
 erJ
 fvH
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
+tdg
 eYJ
 eYJ
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
-tdg
 eYJ
 eYJ
 eYJ
